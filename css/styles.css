@@ -594,7 +594,7 @@ progress {
   color: #6c757d;
 }
 .blockquote-footer::before {
-  content: "— ";
+  content: "— ";
 }
 
 .img-fluid {
@@ -1566,6 +1566,16 @@ progress {
   .gy-xl-5 {
     --bs-gutter-y: 3rem;
   }
+}
+
+/* Forzar el color de fondo del body */
+body {
+  background-color: #EAC3CE !important;
+}
+
+/* Asegurar que el html también tenga el mismo color de fondo */
+html {
+  background-color: #EAC3CE !important;
 }
 @media (min-width: 1400px) {
   .col-xxl {
