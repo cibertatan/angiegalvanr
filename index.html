@@ -10,6 +10,7 @@
         <!-- Font Awesome icons (free version)-->
         <script src="https://use.fontawesome.com/releases/v6.3.0/js/all.js" crossorigin="anonymous"></script>
         <!-- Google fonts-->
+        <link href="https://fonts.googleapis.com/css?family=Playfair+Display:400,700,900" rel="stylesheet" type="text/css" />
         <link href="https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic" rel="stylesheet" type="text/css" />
         <link href="https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800" rel="stylesheet" type="text/css" />
         <!-- Core theme CSS (includes Bootstrap)-->
@@ -17,98 +18,41 @@
     </head>
     <body>
         <!-- Navigation-->
-        <nav class="navbar navbar-expand-lg navbar-light" id="mainNav">
-            <div class="container px-4 px-lg-5">
-                <a class="navbar-brand" href="index.html">Start Bootstrap</a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-                    Menu
-                    <i class="fas fa-bars"></i>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarResponsive">
-                    <ul class="navbar-nav ms-auto py-4 py-lg-0">
-                        <li class="nav-item"><a class="nav-link px-lg-3 py-3 py-lg-4" href="index.html">Home</a></li>
-                        <li class="nav-item"><a class="nav-link px-lg-3 py-3 py-lg-4" href="about.html">About</a></li>
-                        <li class="nav-item"><a class="nav-link px-lg-3 py-3 py-lg-4" href="post.html">Sample Post</a></li>
-                        <li class="nav-item"><a class="nav-link px-lg-3 py-3 py-lg-4" href="contact.html">Contact</a></li>
-                    </ul>
-                </div>
-            </div>
+        <nav style="background: #eac3ce; border-bottom: 2px solid #fff; padding: 14px 0 10px 0; margin-bottom: 0;">
+            <ul style="display: flex; justify-content: space-around; list-style: none; margin: 0; padding: 0; font-family: 'Playfair Display', serif; font-size: 18px; letter-spacing: 1px; color: #a97c8a; align-items: center;">
+                <li style="margin-right: 18px;">
+                    <a href="index.html" style="display: flex; align-items: center;">
+                        <img src="assets/img/logo-angie.png" alt="Logo Angie Galván R" style="height: 70px; width: auto; display: block;" />
+                    </a>
+                </li>
+                <li><a href="about.html" style="text-decoration: none; color: #a97c8a;">QUIÉN SOY</a></li>
+                <li><a href="servicios.html" style="text-decoration: none; color: #a97c8a;">SERVICIOS</a></li>
+                <li><a href="blog.html" style="text-decoration: none; color: #a97c8a;">BLOG</a></li>
+                <li><a href="contacto.html" style="text-decoration: none; color: #a97c8a;">CONTÁCTAME</a></li>
+            </ul>
         </nav>
         <!-- Page Header-->
-        <header class="masthead" style="background-image: url('assets/img/home-bg.jpg')">
-            <div class="container position-relative px-4 px-lg-5">
-                <div class="row gx-4 gx-lg-5 justify-content-center">
-                    <div class="col-md-10 col-lg-8 col-xl-7">
-                        <div class="site-heading">
-                            <h1>Clean Blog</h1>
-                            <span class="subheading">A Blog Theme by Start Bootstrap</span>
+  <header class="masthead" style="background-image: none; min-height: 400px; width: 100%; position: relative;">
+            <div class="header-bg position-relative" style="width: 100%;">
+                <div class="header-grid">
+                    <div class="header-text">
+                        <h1 style="font-size: 5rem;  color: #a97c8a; font-family: 'Playfair Display', serif; font-weight: 500; text-shadow: 2px 2px 0 #fff, 0 4px 12px #fff8;">Angie Galván R</h1>
+                        <div style="margin-top: 10px;">
+                            <span style="background: #f3dbe5; color: #a97c8a; padding: 4px 16px; border-radius: 8px; font-size: 2rem; font-family: 'Playfair Display', serif; font-weight: bold;">Community Manager</span>
                         </div>
+                        <div style="margin-top: 40px;">
+                            <a href="#" style="margin-right: 18px; color: #a97c8a; font-size: 2rem;"><i class="fab fa-instagram"></i></a>
+                            <a href="#" style="margin-right: 18px; color: #a97c8a; font-size: 2rem;"><i class="fab fa-facebook"></i></a>
+                            <a href="#" style="margin-right: 18px; color: #a97c8a; font-size: 2rem;"><i class="fab fa-linkedin"></i></a>
+                            <a href="#" style="color: #a97c8a; font-size: 2rem;"><i class="fab fa-tiktok"></i></a>
+                        </div>
+                    </div>
+                    <div class="header-image">
+                        <img src="assets/img/angie-profile.png" alt="Foto de Angie" style="width: 180%; height: 180%; object-fit: contain;" />
                     </div>
                 </div>
             </div>
         </header>
-        <!-- Main Content-->
-        <div class="container px-4 px-lg-5">
-            <div class="row gx-4 gx-lg-5 justify-content-center">
-                <div class="col-md-10 col-lg-8 col-xl-7">
-                    <!-- Post preview-->
-                    <div class="post-preview">
-                        <a href="post.html">
-                            <h2 class="post-title">Man must explore, and this is exploration at its greatest</h2>
-                            <h3 class="post-subtitle">Problems look mighty small from 150 miles up</h3>
-                        </a>
-                        <p class="post-meta">
-                            Posted by
-                            <a href="#!">Start Bootstrap</a>
-                            on September 24, 2023
-                        </p>
-                    </div>
-                    <!-- Divider-->
-                    <hr class="my-4" />
-                    <!-- Post preview-->
-                    <div class="post-preview">
-                        <a href="post.html"><h2 class="post-title">I believe every human has a finite number of heartbeats. I don't intend to waste any of mine.</h2></a>
-                        <p class="post-meta">
-                            Posted by
-                            <a href="#!">Start Bootstrap</a>
-                            on September 18, 2023
-                        </p>
-                    </div>
-                    <!-- Divider-->
-                    <hr class="my-4" />
-                    <!-- Post preview-->
-                    <div class="post-preview">
-                        <a href="post.html">
-                            <h2 class="post-title">Science has not yet mastered prophecy</h2>
-                            <h3 class="post-subtitle">We predict too much for the next year and yet far too little for the next ten.</h3>
-                        </a>
-                        <p class="post-meta">
-                            Posted by
-                            <a href="#!">Start Bootstrap</a>
-                            on August 24, 2023
-                        </p>
-                    </div>
-                    <!-- Divider-->
-                    <hr class="my-4" />
-                    <!-- Post preview-->
-                    <div class="post-preview">
-                        <a href="post.html">
-                            <h2 class="post-title">Failure is not an option</h2>
-                            <h3 class="post-subtitle">Many say exploration is part of our destiny, but it’s actually our duty to future generations.</h3>
-                        </a>
-                        <p class="post-meta">
-                            Posted by
-                            <a href="#!">Start Bootstrap</a>
-                            on July 8, 2023
-                        </p>
-                    </div>
-                    <!-- Divider-->
-                    <hr class="my-4" />
-                    <!-- Pager-->
-                    <div class="d-flex justify-content-end mb-4"><a class="btn btn-primary text-uppercase" href="#!">Older Posts →</a></div>
-                </div>
-            </div>
-        </div>
         <!-- Footer-->
         <footer class="border-top">
             <div class="container px-4 px-lg-5">
@@ -119,7 +63,7 @@
                                 <a href="#!">
                                     <span class="fa-stack fa-lg">
                                         <i class="fas fa-circle fa-stack-2x"></i>
-                                        <i class="fab fa-twitter fa-stack-1x fa-inverse"></i>
+                                        <i class="fab fa-instagram fa-stack-1x fa-inverse"></i>
                                     </span>
                                 </a>
                             </li>
@@ -135,12 +79,20 @@
                                 <a href="#!">
                                     <span class="fa-stack fa-lg">
                                         <i class="fas fa-circle fa-stack-2x"></i>
-                                        <i class="fab fa-github fa-stack-1x fa-inverse"></i>
+                                        <i class="fab fa-linkedin fa-stack-1x fa-inverse"></i>
+                                    </span>
+                                </a>
+                            </li>
+                            <li class="list-inline-item">
+                                <a href="#!">
+                                    <span class="fa-stack fa-lg">
+                                        <i class="fas fa-circle fa-stack-2x"></i>
+                                        <i class="fab fa-tiktok fa-stack-1x fa-inverse"></i>
                                     </span>
                                 </a>
                             </li>
                         </ul>
-                        <div class="small text-center text-muted fst-italic">Copyright &copy; Your Website 2023</div>
+                        <div class="small text-center text-muted fst-italic">Copyright &copy; Angie Galván R - Community Manager 2023</div>
                     </div>
                 </div>
             </div>
