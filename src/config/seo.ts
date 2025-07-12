@@ -3,7 +3,7 @@ export const SEO_CONFIG = {
     title: "Angie Galvan R - Portfolio Personal",
     description: "Portfolio personal de Angie Galvan R. Descubre mi trabajo, experiencia y proyectos profesionales en desarrollo web y diseño.",
     keywords: "Angie Galvan R, portfolio, desarrollo web, diseño, proyectos, frontend, React, JavaScript",
-    image: "/assets/img/angie-profile.png",
+    image: "/public/assets/img/angie-profile.png",
     url: "https://angiegalvanr.com/"
   },
   pages: {
