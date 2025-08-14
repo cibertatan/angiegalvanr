@@ -1,4 +1,4 @@
-import { Layout, Hero, About } from './components'
+import { Layout, Hero, About, MyServices } from './components'
 
 function App() {
   return (
@@ -6,6 +6,7 @@ function App() {
       <div className="bg-accent min-h-screen">
         <Hero />
         <About />
+        <MyServices />
       </div>
     </Layout>
   )
