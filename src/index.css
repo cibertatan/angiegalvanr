@@ -10,11 +10,14 @@
 :root {
   --color-principal: #a97c8a; /* Dark pink for texts and buttons */
   --color-fondo: #faeded; /* Very light pink for sections */
-  --color-acento: #eac3ce; /* Medium pink for main background */
+  --color-acento: #f8d7da; /* Medium pink for main background */
   --color-texto: #5d5d5d; /* Soft gray for body text */
   --color-blanco: #ffffff;
   --fuente-titulos: "Playfair Display", serif;
   --fuente-cuerpo: "Playfair Display", serif;
+  --color-texto-header: #355C7D;
+  --divisor-border: #d4a649;
+  --texto-hero: #e57373;
 }
 
 /* Basic reset and body configuration */
@@ -61,7 +64,7 @@ a:hover {
 /* 3D effect for navigation buttons */
 .nav-button-3d {
   background: var(--color-acento);
-  color: var(--color-principal);
+  color: var(--color-texto-header);
   border: none;
   border-radius: 16px;
   padding: 13px 16px;
@@ -90,7 +93,7 @@ a:hover {
 
 /* Specific style for logo button */
 .logo-button {
-  background: var(--color-acento);
+  background: var(--color-blanco);
   color: var(--color-principal);
   border: none;
   border-radius: 16px;

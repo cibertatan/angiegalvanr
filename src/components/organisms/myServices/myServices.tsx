@@ -17,6 +17,7 @@ export const MyServices = () => {
         <div className="w-full flex justify-center">
           <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8 w-full max-w-5xl"  style={{paddingBottom: '20px'}}>
             {services.map((service) => (
+              <div key={service.id} className="flex flex-col items-center justify-center gap-4">
               <Flipped key={service.id} flipId={service.id}>
                 <div className="relative w-full h-72 flex items-center justify-center">
                   <BlurEffect width="600px" height="600px" style={{zIndex: 0, filter: 'blur(30px)'}} />
@@ -25,8 +26,7 @@ export const MyServices = () => {
                     <div className={`transition-transform duration-500 w-full h-full [transform-style:preserve-3d] ${flipped[service.id] ? 'rotate-y-180' : ''}`}>
                       {/* Front */}
                       <div className="absolute w-full h-full backface-hidden flex flex-col items-center justify-center bg-white rounded-xl shadow-lg p-4 overflow-hidden">
-                        <img src={service.image} alt={service.title} className="w-24 h-24 object-cover rounded-md mb-4" />
-                        <h3 className="text-lg font-semibold text-center text-[#B88C8C]">{service.title}</h3>
+                        <img src={service.image} alt={service.title} className="w-full h-full object-cover rounded-md mb-4" />
                       </div>
                       {/* Back */}
                       <div className="absolute w-full h-full backface-hidden rotate-y-180 flex items-center justify-center bg-[#EBCFCF] rounded-xl shadow-lg p-6 overflow-hidden">
@@ -36,6 +36,8 @@ export const MyServices = () => {
                   </div>
                 </div>
               </Flipped>
+              <h3 className="text-lg font-semibold text-center text-[#B88C8C]">{service.title}</h3>
+              </div>
             ))}
           </div>
         </div>

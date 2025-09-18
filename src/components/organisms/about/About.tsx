@@ -17,7 +17,7 @@ export const About = () => {
   return (
     <section id="quien-soy" className="bg-(--color-fondo) w-full" style={{padding: '60px'}}>
       <div className="mx-auto">
-        <div className="flex flex-row w-full border-2 border-(--color-principal) rounded-2xl" style={{padding: '3rem'}}>
+        <div className="flex flex-row w-full border-[3px] border-(--divisor-border) rounded-2xl" style={{padding: '3rem'}}>
           <div className="flex justify-center items-center w-1/2">
             <div className="rounded-2xl overflow-hidden w-4/5">
               <img
@@ -32,27 +32,55 @@ export const About = () => {
             <div style={blurEffectStyle}></div>
 
             <div className="relative z-10 text-center">
-              <h2 className='text-(--color-principal) font-bold' style={{fontSize: '3rem'}}>¿Quién Soy?</h2><br/>
-              <p className='leading-relaxed' style={{fontSize: '1.5rem'}}>
-                Apasionada por las redes sociales, el
+              <div className="h-[140px] w-[500px] absolute top-[-25vh] right-[-10vh]">
+            <img
+                className="w-full h-full object-cover"
+                src="/assets/img/quien-soy.png"
+                alt="Quien soy"
+                />
+                </div>
+                <br/>
+                <br/>
+                <br/>
+                <br/>
+                <br/>
+                <br/>
+                <div className="flex flex-row justify-center items-center gap-2">
+                  <h5 style={{fontSize: '1.2rem', color: '#345bf5', fontWeight: 'bold'}}>
+                    Apasionada 
+                  </h5>
+                  <h5 style={{fontSize: '1.2rem', color: '#6b6b6b', fontWeight: 'bold'}}>por las </h5>
+                  <h5 style={{fontSize: '1.2rem', color: '#345bf5', fontWeight: 'bold'}}>redes sociales,</h5>
+                  <h5 style={{fontSize: '1.2rem', color: '#6b6b6b', fontWeight: 'bold'}}>el</h5>
+                </div>
+                <div className="flex flex-row justify-center items-center gap-2">
+                  <h5 style={{fontSize: '1.2rem', color: '#6b6b6b', fontWeight: 'bold'}}>contenido con propósito y el</h5>
+                  <h5 style={{fontSize: '1.2rem', color: '#345bf5', fontWeight: 'bold'}}>crecimiento</h5>
+                </div>
+                <div className="flex flex-row justify-center items-center gap-2">
+                  <h5 style={{fontSize: '1.2rem', color: '#345bf5', fontWeight: 'bold'}}>digital de marcas</h5>
+                  <h5 style={{fontSize: '1.2rem', color: '#6b6b6b', fontWeight: 'bold'}}>personales y</h5>
+                </div>
+                <div className="flex flex-row justify-center items-center gap-2">
+                  <h5 style={{fontSize: '1.2rem', color: '#6b6b6b', fontWeight: 'bold'}}>empresariales.</h5>
+                </div>
                 <br />
-                contenido con propósito y el crecimiento
+                <div className="flex flex-row justify-center items-center gap-2">
+                  <h5 style={{fontSize: '1.2rem', color: '#6b6b6b', fontWeight: 'bold'}}>Mi enfoque es</h5>
+                  <h5 style={{fontSize: '1.2rem', color: '#345bf5', fontWeight: 'bold'}}>crear comunidades fieles,</h5>
+                </div>
+                <div className="flex flex-row justify-center items-center gap-2 mt-4">
+                  <h5 style={{fontSize: '1.2rem', color: '#6b6b6b', fontWeight: 'bold'}}>aumentar tu visibilidad y</h5>
+                  <h5 style={{fontSize: '1.2rem', color: '#345bf5', fontWeight: 'bold'}}>fortalecer tu</h5>
+                </div>
+                <div className="flex flex-row justify-center items-center gap-2 mt-4">
+                  <h5 style={{fontSize: '1.2rem', color: '#345bf5', fontWeight: 'bold'}}>reputación.</h5>
+                </div>
                 <br />
-                digital de marcas personales y
                 <br />
-                empresariales.
-                <br /> <br />
-                Mi enfoque es crear comunidades fieles,
-                <br />
-                ayudando a fortalecer tu
-                <br />
-                reputación en línea.
-                <br /> <br />
-              </p>
-
               <a 
                 href="#contacto"
-                className="inline-block bg-(--color-principal) rounded-xl shadow-lg transition-all duration-200 hover:-translate-y-1 hover:shadow-2xl" style={{padding: '1rem 2.5rem', fontSize: '1.25rem', color: 'var(--color-blanco)'}}
+                className="inline-block bg-(--texto-hero) rounded-xl shadow-lg transition-all duration-200 hover:-translate-y-1 hover:shadow-2xl" style={{padding: '1rem 2.5rem', fontSize: '1.25rem', color: 'var(--color-blanco)'}}
               >
                 RESERVA UNA ASESORÍA
               </a>
