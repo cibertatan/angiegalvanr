@@ -42,7 +42,9 @@ export const MyServices = () => {
                   </div>
                 </div>
               </Flipped>
-              <h3 className="text-2xl font-bold text-center" style={{color: service.textColor, textShadow: '2px 2px 0 white, -2px 2px 0 white, 2px -2px 0 white, -2px -2px 0 white'}}>{service.title}</h3>
+              <div className="w-full h-full flex align-center justify-center min-h-[60px]">
+              <h3 className="text-2xl font-bold" style={{color: service.textColor, textShadow: '2px 2px 0 white, -2px 2px 0 white, 2px -2px 0 white, -2px -2px 0 white'}}>{service.title}</h3>
+              </div>
               </div>
             ))}
           </div>
