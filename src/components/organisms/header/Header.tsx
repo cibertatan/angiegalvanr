@@ -25,7 +25,7 @@ export function Header() {
       <div className="flex lg:hidden h-full w-full ">
         <div className="w-full flex relative">
           <MobileMenu />
-          <div className="items-center justify-center flex">
+          <div className="items-center justify-center flex bg-red-500">
             <a href="/" className="logo-button">
               <img
                 src="/assets/img/logo-angie.png"
