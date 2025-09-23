@@ -3,7 +3,7 @@ import { AnimatePresence, motion, usePresenceData, Variant, Variants, wrap } fro
 import { SVGProps } from "react"
 import { forwardRef, useState } from "react"
 
-type Props = { services: { id: number, image: string, title: string, description: string, textColor: string }[] }
+type Props = { services: { id: number, image: string, title: string, description: string, textColor: string, backgroundColor: string }[] }
 
 export default function ImageCarousel({ services }: Props) {
   const [index, setIndex] = useState(0)
@@ -25,7 +25,7 @@ export default function ImageCarousel({ services }: Props) {
                 whileFocus={{ outline: `2px solid #355C7D` }}
                 whileTap={{ scale: 0.9 }}><ArrowLeft /></motion.button>
       <AnimatePresence custom={direction} initial={false} mode="popLayout">
-        <Slide key={index} src={services[index].image} title={services[index].title} textColor={services[index].textColor} />
+        <Slide key={index} src={services[index].image} title={services[index].title} textColor={services[index].backgroundColor} />
       </AnimatePresence>
       <motion.button  initial={false}
                 animate={{ backgroundColor: "#355C7D" }}
