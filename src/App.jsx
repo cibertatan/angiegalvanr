@@ -6,7 +6,7 @@ function App() {
       <div className="bg-accent min-h-screen">
         <Hero />
         <About />
-        {/* <MyServices /> */}
+        <MyServices />
       </div>
     </Layout>
   )

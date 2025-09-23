@@ -10,9 +10,11 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@motionone/react": "^10.16.4",
     "@tailwindcss/postcss": "^4.1.11",
     "@tailwindcss/vite": "^4.1.11",
     "framer-motion": "^12.23.18",
+    "motion": "^12.23.19",
     "react": "^19.1.0",
     "react-dom": "^19.1.0",
     "react-flip-toolkit": "^7.2.4"

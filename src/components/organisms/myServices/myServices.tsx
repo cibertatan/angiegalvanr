@@ -2,16 +2,14 @@ import { useState } from 'react';
 import { Flipper, Flipped } from 'react-flip-toolkit';
 import { services } from './constants';
 import { BlurEffect } from '../../atoms/BlurEffect';
+import ImageCarousel from './ImageCarousel';
 
 export const MyServices = () => {
   const [flipped, setFlipped] = useState({});
 
-  const handleFlip = (id) => {
-    setFlipped((prev) => ({ ...prev, [id]: !prev[id] }));
-  };
-
   return (
-    <section id="servicios" className="py-12 px-4 bg-(--color-fondo) flex flex-col items-center justify-center">
+    <div id="servicios">  
+    <section className="hidden lg:flex py-12 px-4 bg-(--color-fondo) flex flex-col items-center justify-center">
       <div className="w-[100vw] flex justify-center">
         <div className="w-[80vh] flex justify-center h-[40vh] top-0 left-0 right-0 bottom-0 "><img src="/assets/img/mis-servicios.png" alt="My Services" className="w-full h-full object-cover" /></div>
       </div>
@@ -52,5 +50,16 @@ export const MyServices = () => {
       </Flipper>
       </div>
     </section>
+    <section className="flex lg:hidden py-12 px-4 bg-(--color-fondo) flex flex-col items-center justify-center">
+    <div className="w-[100vw] flex justify-center" style={{marginTop: '40px'}}>
+        <div className="w-[300px] flex justify-center h-[150px] top-0 left-0 right-0 bottom-0 ">
+          <img src="/assets/img/mis-servicios.png" alt="My Services" className="w-full h-full object-cover" />
+          </div>
+      </div>
+      <div className="w-full flex h-[420px]" style={{padding: '20px 10px', marginTop: '-80px'}}>
+        <ImageCarousel services={services} />
+      </div>
+    </section>
+    </div>
   );
 }
