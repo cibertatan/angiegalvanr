@@ -5,6 +5,7 @@ export const services = [
       title: 'GESTIÓN DE REDES SOCIALES',
       description: 'Planifico, publico y mantengo activa tu presencia en redes como Instagram, Facebook, TikTok y LinkedIn.',
       textColor: '#6b6b6b',
+      backgroundColor: '#6b6b6b',
     },
     {
       id: 2,
@@ -12,6 +13,7 @@ export const services = [
       title: 'ATENCIÓN DIARIA DE MENSAJES',
       description: 'Respondo mensajes, resuelvo dudas y fortalezco la relación con tu comunidad.',
       textColor: '#355C7D',
+      backgroundColor: '#355C7D',
     },
     {
       id: 3,
@@ -19,6 +21,7 @@ export const services = [
       title: 'REDACCIÓN DE BLOGS',
       description: 'Creo artículos pensados para educar, atraer y posicionar tu marca con un enfoque SEO.',
       textColor: '#e57373',
+      backgroundColor: '#e57373',
     },
     {
       id: 4,
@@ -26,6 +29,7 @@ export const services = [
       title: 'EMAIL MARKETING',
       description: 'Diseño y envío de correos estratégicos para fidelizar a tu audiencia, promocionar servicios y mantener una comunicación directa y profesional.',
       textColor: '#e57373',
+      backgroundColor: '#6b6b6b',
     },
     {
       id: 5,
@@ -33,6 +37,7 @@ export const services = [
       title: 'PUBLICIDAD EN REDES SOCIALES',
       description: 'Creo, configuro y optimizo campañas publicitarias para aumentar tu alcance y atraer más clientes.',
       textColor: '#6b6b6b',
+      backgroundColor: '#355C7D',
     },
     {
       id: 6,
@@ -40,5 +45,6 @@ export const services = [
       title: 'ANÁLISIS DE LA COMPETENCIA',
       description: 'Reviso lo que están haciendo otros en tu sector para encontrar oportunidades y diferenciarte.',
       textColor: '#355C7D',
+      backgroundColor: '#e57373',
     },
   ];
