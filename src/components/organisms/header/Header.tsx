@@ -23,9 +23,9 @@ export function Header() {
       </div>
       {/* Tablet & Mobile only: show logo and menu */}
       <div className="flex lg:hidden h-full w-full bg-yellow-500">
-        <div className="w-full flex relative bg-green-500">
+        <div className="w-full flex relative bg-green-500 p-0">
           <MobileMenu />
-          <div className="items-center justify-center flex bg-red-500">
+          <div className="items-center justify-center flex bg-red-500 mr-[-5px]">
             <a href="/" className="logo-button">
               <img
                 src="/assets/img/logo-angie.png"
