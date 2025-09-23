@@ -20,9 +20,10 @@ export default function MobileMenu() {
         style={{
           ...nav,
           zIndex: isOpen ? 120 : 1,
+          pointerEvents: isOpen ? 'auto' : 'none'
         }}
       >
-        <motion.div style={background} variants={sidebarVariants} />
+        <motion.div style={{...background, zIndex: isOpen ? 100 : 1}} variants={sidebarVariants} />
         <Navigation isOpen={isOpen} />
         <MenuToggle toggle={() => setIsOpen(!isOpen)} />
       </motion.nav>
