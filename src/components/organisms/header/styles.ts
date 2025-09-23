@@ -3,7 +3,6 @@ export const nav: React.CSSProperties = {
   overflow: "visible",
   width: 300,
   height: 370,
-  zIndex: 120,
 };
 
 export const background: React.CSSProperties = {
@@ -24,7 +23,7 @@ export const toggleContainer: React.CSSProperties = {
   MozUserSelect: "none",
   cursor: "pointer",
   position: "absolute",
-  top: 17,
+  top: 24,
   left: 28,
   width: 50,
   height: 50,
