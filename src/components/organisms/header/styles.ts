@@ -30,6 +30,7 @@ export const toggleContainer: React.CSSProperties = {
   borderRadius: "50%",
   background: "transparent",
   zIndex: 130,
+  pointerEvents: "auto",
 };
 
 export const list: React.CSSProperties = {
