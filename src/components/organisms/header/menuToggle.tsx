@@ -17,10 +17,13 @@ export default function MobileMenu() {
         animate={isOpen ? "open" : "closed"}
         custom={height}
         ref={containerRef}
-        style={nav}
+        style={{
+          ...nav,
+          zIndex: isOpen ? 120 : 1,
+        }}
       >
         <motion.div style={background} variants={sidebarVariants} />
-        <Navigation />
+        <Navigation isOpen={isOpen} />
         <MenuToggle toggle={() => setIsOpen(!isOpen)} />
       </motion.nav>
     </div>
@@ -36,22 +39,30 @@ const navVariants = {
   },
 };
 
-const Navigation = () => (
-  <motion.div style={list} variants={navVariants}>
+const Navigation = ({ isOpen }: { isOpen: boolean }) => (
+  <motion.div style={{ ...list, display: isOpen ? "block" : "none" }} variants={navVariants}>
     {listNav.map((item) => (
-      <MenuItem name={item.name} href={item.href} key={item.name} />
+      <MenuItem name={item.name} href={item.href} key={item.name} isOpen={isOpen} />
     ))}
   </motion.div>
 );
 
-const MenuItem = ({ name, href }: NavItem) => (
+const MenuItem = ({ name, href, isOpen }: NavItem & { isOpen: boolean }) => (
   <motion.li
     style={listItem}
     variants={itemVariants}
     whileHover={{ scale: 1.1 }}
     whileTap={{ scale: 0.95 }}
   >
-    <a href={href} className="nav-button-3d-mobile">
+    <a
+      href={href}
+      className="nav-button-3d-mobile"
+      style={{
+        zIndex: isOpen ? 100 : 1,
+        left: isOpen ? 0 : "-100vw",
+        transition: "left 0.3s ease-in-out"
+      }}
+    >
       {name}
     </a>
   </motion.li>

@@ -28,6 +28,8 @@ export const itemVariants = {
 export const sidebarVariants: Variants = {
   open: (height = 1000) => ({
     clipPath: `circle(${height * 2 + 200}px at 40px 40px)`,
+    overflow: "hidden",
+    marginTop: -8,
     transition: {
       type: "spring",
       stiffness: 20,
@@ -35,6 +37,7 @@ export const sidebarVariants: Variants = {
     },
   }),
   closed: {
+    marginTop: 8,
     clipPath: "circle(30px at 40px 40px)",
     transition: {
       delay: 0.2,

@@ -3,7 +3,7 @@ import MobileMenu from "./menuToggle";
 
 export function Header() {
   return (
-    <nav className="bg-(--color-acento) border-b-[3px] border-(--divisor-border) overflow-visible h-[100px] p-[0_60px]">
+    <nav className="bg-(--color-acento) border-b-[3px] border-(--divisor-border) flex flex-row w-full max-w-[100vw] justify-between items-center overflow-visible h-[100px] p-[0_60px] lg:relative sticky top-0 z-50">
       {/* PC only: show nav links and menu */}
       <div className="hidden lg:flex justify-between items-center px-4 sm:px-6 lg:px-8 h-full w-full mx-auto">
         <div className="flex items-center space-x-4 justify-around w-full">
@@ -22,8 +22,8 @@ export function Header() {
         </div>
       </div>
       {/* Tablet & Mobile only: show logo and menu */}
-      <div className="flex lg:hidden h-full w-full">
-        <div className="w-full flex relative" style={{ paddingRight: "10px" }}>
+      <div className="flex lg:hidden h-full w-full ">
+        <div className="w-full flex relative" style={{ paddingRight: "5px" }}>
           <MobileMenu />
           <div className="items-center justify-center flex">
             <a href="/" className="logo-button">
