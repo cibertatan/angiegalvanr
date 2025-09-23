@@ -57,7 +57,7 @@ const MenuItem = ({ name, href, isOpen }: NavItem & { isOpen: boolean }) => (
   >
     <a
       href={href}
-      className="nav-button-3d-mobile"
+      className="nav-button-3d bg-[var(--color-acento)] text-[var(--color-texto-header)]"
       style={{
         zIndex: isOpen ? 100 : 1,
         left: isOpen ? 0 : "-100vw",
