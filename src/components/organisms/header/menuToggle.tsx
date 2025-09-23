@@ -24,7 +24,7 @@ export default function MobileMenu() {
         }}
       >
         <motion.div style={{...background, zIndex: isOpen ? 100 : 1}} variants={sidebarVariants} />
-        <Navigation isOpen={isOpen} />
+        <Navigation isOpen={isOpen} toggle={() => setIsOpen(!isOpen)} />
         <MenuToggle toggle={() => setIsOpen(!isOpen)} />
       </motion.nav>
     </div>
@@ -40,15 +40,15 @@ const navVariants = {
   },
 };
 
-const Navigation = ({ isOpen }: { isOpen: boolean }) => (
+const Navigation = ({ isOpen, toggle }: { isOpen: boolean, toggle: () => void  }) => (
   <motion.div style={{ ...list, display: isOpen ? "block" : "none" }} variants={navVariants}>
     {listNav.map((item) => (
-      <MenuItem name={item.name} href={item.href} key={item.name} isOpen={isOpen} />
+      <MenuItem name={item.name} href={item.href} key={item.name} isOpen={isOpen} toggle={toggle} />
     ))}
   </motion.div>
 );
 
-const MenuItem = ({ name, href, isOpen }: NavItem & { isOpen: boolean }) => (
+const MenuItem = ({ name, href, isOpen, toggle }: NavItem & { isOpen: boolean, toggle: () => void }) => (
   <motion.li
     style={listItem}
     variants={itemVariants}
@@ -57,6 +57,7 @@ const MenuItem = ({ name, href, isOpen }: NavItem & { isOpen: boolean }) => (
   >
     <a
       href={href}
+      onClick={() => toggle()}
       className="nav-button-3d bg-[var(--color-acento)] text-[var(--color-texto-header)]"
       style={{
         zIndex: isOpen ? 100 : 1,

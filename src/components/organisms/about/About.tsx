@@ -20,10 +20,11 @@ export const About = () => {
   return (
     <div id="quien-soy">
       <section
-        className="hidden lg:flex bg-(--color-fondo) w-full"
+        className="hidden lg:flex bg-(--color-fondo) w-[100vw] overflow-hidden"
+
         style={{ padding: "60px" }}
       >
-        <div className="mx-auto">
+        <div className="mx-auto  w-full">
           <div
             className="flex flex-row w-full border-[3px] border-(--divisor-border) rounded-2xl"
             style={{ padding: "3rem" }}
