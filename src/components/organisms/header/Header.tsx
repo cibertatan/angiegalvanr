@@ -23,7 +23,7 @@ export function Header() {
       </div>
       {/* Tablet & Mobile only: show logo and menu */}
       <div className="flex lg:hidden h-full w-full ">
-        <div className="w-full flex relative" style={{ paddingRight: "5px" }}>
+        <div className="w-full flex relative">
           <MobileMenu />
           <div className="items-center justify-center flex">
             <a href="/" className="logo-button">
