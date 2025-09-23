@@ -5,8 +5,8 @@ function App() {
     <Layout>
       <div className="bg-accent min-h-screen">
         <Hero />
-        <About />
-        <MyServices />
+        {/* <About />
+        <MyServices /> */}
       </div>
     </Layout>
   )
