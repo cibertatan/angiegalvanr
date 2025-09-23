@@ -22,8 +22,8 @@ export function Header() {
         </div>
       </div>
       {/* Tablet & Mobile only: show logo and menu */}
-      <div className="flex lg:hidden h-full w-full ">
-        <div className="w-full flex relative">
+      <div className="flex lg:hidden h-full w-full bg-yellow-500">
+        <div className="w-full flex relative bg-green-500">
           <MobileMenu />
           <div className="items-center justify-center flex bg-red-500">
             <a href="/" className="logo-button">
