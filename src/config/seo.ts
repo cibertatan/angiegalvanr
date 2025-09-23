@@ -1,16 +1,16 @@
 export const SEO_CONFIG = {
   default: {
-    title: "Angie Galvan R - Portfolio Personal",
-    description: "Portfolio personal de Angie Galvan R. Descubre mi trabajo, experiencia y proyectos profesionales en desarrollo web y diseño.",
-    keywords: "Angie Galvan R, portfolio, desarrollo web, diseño, proyectos, frontend, React, JavaScript",
+    title: "Angie Galvan R - Portafolio Personal",
+    description: "Portafolio personal de Angie Galvan R. Descubre mi trabajo, experiencia y proyectos profesionales en desarrollo web y diseño.",
+    keywords: "Angie Galvan R, portafolio, desarrollo web, diseño, proyectos, frontend, React, JavaScript",
     image: "/public/assets/img/angie-profile.png",
     url: "https://angiegalvanr.com/"
   },
   pages: {
     home: {
-      title: "Angie Galvan R - Portfolio Personal",
-      description: "Bienvenido al portfolio personal de Angie Galvan R. Descubre mi trabajo, experiencia y proyectos profesionales.",
-      keywords: "Angie Galvan R, portfolio, inicio, bienvenida"
+      title: "Angie Galvan R - Portafolio Personal",
+      description: "Bienvenido al portafolio personal de Angie Galvan R. Descubre mi trabajo, experiencia y proyectos profesionales.",
+      keywords: "Angie Galvan R, portafolio, inicio, bienvenida"
     },
     about: {
       title: "Sobre Mí - Angie Galvan R",
@@ -20,7 +20,7 @@ export const SEO_CONFIG = {
     projects: {
       title: "Proyectos - Angie Galvan R",
       description: "Explora los proyectos profesionales de Angie Galvan R. Desarrollo web, aplicaciones y soluciones digitales.",
-      keywords: "Angie Galvan R, proyectos, desarrollo web, aplicaciones, portfolio"
+      keywords: "Angie Galvan R, proyectos, desarrollo web, aplicaciones, portafolio"
     },
     contact: {
       title: "Contacto - Angie Galvan R",
