@@ -1,15 +1,8 @@
-import { Layout, Hero, About, MyServices } from './components'
+import { AppRoutes } from "@navigation"
+
 
 function App() {
-  return (
-    <Layout>
-      <div className="bg-accent min-h-screen">
-        <Hero />
-        <About />
-        <MyServices />
-      </div>
-    </Layout>
-  )
+      return <AppRoutes />
 }
 
 export default App

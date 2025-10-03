@@ -117,6 +117,7 @@ export const About = () => {
                   RESERVA UNA ASESORÍA
                 </a>
               </div>
+              <div id="servicios-mobile" className="absolute bottom-5 right-0"/>
             </div>
           </div>
         </div>

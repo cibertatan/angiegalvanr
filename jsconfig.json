@@ -3,7 +3,14 @@
     "baseUrl": ".",
     "jsx": "react-jsx",
     "paths": {
-      "@components/*": ["src/components/*"]
+      "@components": ["src/components"],
+      "@components/*": ["src/components/*"],
+      "@pages": ["src/pages"],
+      "@pages/*": ["src/pages/*"],
+      "@navigation": ["src/navigation"],
+      "@navigation/*": ["src/navigation/*"],
+      "@constants": ["src/constants"],
+      "@constants/*": ["src/constants/*"],
     }
   }
 } 
