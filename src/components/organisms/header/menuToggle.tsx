@@ -43,12 +43,12 @@ const navVariants = {
 const Navigation = ({ isOpen, toggle }: { isOpen: boolean, toggle: () => void  }) => (
   <motion.div style={{ ...list, display: isOpen ? "block" : "none" }} variants={navVariants}>
     {listNav.map((item) => (
-      <MenuItem name={item.name} href={item.href} key={item.name} isOpen={isOpen} toggle={toggle} />
+      <MenuItem name={item.name} href={item.href} key={item.name} isOpen={isOpen} toggle={toggle} hrefMobile={item.hrefMobile} />
     ))}
   </motion.div>
 );
 
-const MenuItem = ({ name, href, isOpen, toggle }: NavItem & { isOpen: boolean, toggle: () => void }) => (
+const MenuItem = ({ name, isOpen, toggle, hrefMobile }: NavItem & { isOpen: boolean, toggle: () => void }) => (
   <motion.li
     style={listItem}
     variants={itemVariants}
@@ -56,7 +56,7 @@ const MenuItem = ({ name, href, isOpen, toggle }: NavItem & { isOpen: boolean, t
     whileTap={{ scale: 0.95 }}
   >
     <a
-      href={href}
+      href={hrefMobile}
       onClick={() => toggle()}
       className="nav-button-3d bg-[var(--color-acento)] text-[var(--color-texto-header)]"
       style={{

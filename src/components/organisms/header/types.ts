@@ -3,6 +3,7 @@ import { Variants } from "framer-motion";
 export interface NavItem {
     name: string
     href: string
+    hrefMobile: string
   }
 
  export interface PathProps {
