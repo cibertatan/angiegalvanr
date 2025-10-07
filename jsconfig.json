@@ -3,6 +3,8 @@
     "baseUrl": ".",
     "jsx": "react-jsx",
     "paths": {
+      "@": ["src"],
+      "@/*": ["src/*"],
       "@components": ["src/components"],
       "@components/*": ["src/components/*"],
       "@pages": ["src/pages"],
@@ -10,7 +12,7 @@
       "@navigation": ["src/navigation"],
       "@navigation/*": ["src/navigation/*"],
       "@constants": ["src/constants"],
-      "@constants/*": ["src/constants/*"],
+      "@constants/*": ["src/constants/*"]
     }
   }
 } 

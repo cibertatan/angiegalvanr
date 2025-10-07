@@ -6,7 +6,7 @@ export const listNav: NavItem[] = [
   { name: "QUIÉN SOY", href: "#quien-soy", hrefMobile: "#quien-soy-mobile" },
   { name: "SERVICIOS", href: "#servicios", hrefMobile: "#servicios-mobile" },
   { name: "BLOG", href: routes.blog, hrefMobile: "#blog-mobile" },
-  { name: "CONTÁCTAME", href: "/contacto", hrefMobile: "#contacto-mobile" },
+  { name: "CONTÁCTAME", href: "#contacto", hrefMobile: "#contacto-mobile" },
 ];
 
 export const itemVariants = {

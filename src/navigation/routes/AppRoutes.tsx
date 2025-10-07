@@ -1,11 +1,12 @@
 import { Routes, Route } from 'react-router';
 import { routes } from './routeConfig';
 import { Home, BlogDetails, Blogs } from '@pages';
+import { Layout } from '@components/layout';
 
 export const AppRoutes = () => (
   <Routes>
-    <Route path={routes.home} element={<Home />} />
-    <Route path={routes.blog} element={<Blogs />} />
-    <Route path={routes.blogDetail} element={<BlogDetails />} />
+    <Route path={routes.home} element={<Layout><Home /></Layout>} />
+    <Route path={routes.blog} element={<Layout><Blogs /></Layout>} />
+    <Route path={routes.blogDetail} element={<Layout><BlogDetails /></Layout>} />
   </Routes>
 );

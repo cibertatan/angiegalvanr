@@ -29,7 +29,7 @@ export const BlogsSection: BlogPost[] = [
     id: 1,
     title: "Cómo organizar una parrilla de contenido paso a paso",
     slug: "como-organizar-una-parrilla-de-contenido-paso-a-paso",
-    colorTitle: "#6b6b6b",
+    colorTitle: "#355C7D",
     description: "Aprende a darle orden a lo que publicas cada semana",
     content: `
       <div style="font-family: serif; line-height: 1.6; color: #333; text-align: left;">
@@ -156,7 +156,7 @@ export const BlogsSection: BlogPost[] = [
     id: 4,
     title: "Errores comunes al pautar en redes y cómo evitarlos",
     slug: "errores-comunes-al-pautar-en-redes-y-como-evitarlos",
-    colorTitle: "#6b6b6b",
+    colorTitle: "#e57373",
     description:
       'Pautar no es darle "promocionar publicación". Aquí te explico cómo hacerlo bien',
     content: `
