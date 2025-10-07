@@ -19,7 +19,7 @@ const validationSchema = Yup.object({
     .required("*El email es requerido"),
   phone: Yup.string()
     .required("*El teléfono es requerido")
-    .matches(/^[0-9+\-\s()]+$/, "*Formato de teléfono inválido"),
+    .matches(/^[0-9+\-\s()]+$/, "*Teléfono inválido"),
   message: Yup.string().optional().nullable(),
 });
 
@@ -41,7 +41,7 @@ export const Contact = () => {
     const today = new Date().toDateString();
     const submissions = JSON.parse(localStorage.getItem('emailSubmissions') || '{}');
     
-    if (submissions[today] >= 2) {
+    if (submissions[today] >= 3) {
       return false;
     }
     return true;
@@ -243,7 +243,7 @@ export const Contact = () => {
                   )}
                 </div>
 
-                <div style={{ paddingBottom: "40px" }}>
+                <div style={{ paddingBottom: "10px" }}>
                   <Field
                     as="textarea"
                     name="message"
@@ -260,16 +260,19 @@ export const Contact = () => {
                 </div>
 
                 {/* Mensaje de estado */}
-                {message.type && (
+                {message.type ? (
                   <div
                     className={`mb-4 p-3 rounded-lg text-center transition-all duration-300 ${
                       message.type === "success"
                         ? "bg-green-100 text-green-800 border border-green-200"
                         : "bg-red-100 text-red-800 border border-red-200"
                     }`}
+                    style={{ marginBottom: "20px" }}
                   >
                     {message.text}
                   </div>
+                ) : (
+                  <div style={{ marginBottom: "40px" }} />
                 )}
 
                 <button
