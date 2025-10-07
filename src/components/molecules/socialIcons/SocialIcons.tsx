@@ -1,7 +1,10 @@
-export function SocialIcons() {
+export function SocialIcons({relative}: {relative?: boolean}) {
+
+  const position = relative ? 'relative flex justify-center items-center gap-2' : 'absolute lg:top-[20vh] z-40 lg:left-[33vw] top-[30vh] left-10 flex justify-center items-center gap-2'
+
   return (
     <div
-      className="absolute lg:top-[20vh] z-40 lg:left-[33vw] top-[30vh] left-10 flex justify-center items-center gap-2"
+      className={position}
     >
       <a href="https://www.instagram.com/angiegalvanr?igsh=MXA5OHhhOWRqa2hydw%3D%3D&utm_source=qr" target="_blank" rel="noopener noreferrer">
         <img src="/assets/img/instagram-logo.png" alt="Instagram" className="lg:w-[60px] lg:h-[60px] w-[40px] h-[40px] transition-transform duration-300 ease-in-out hover:scale-120"></img>
