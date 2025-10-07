@@ -39,7 +39,6 @@ export const Hero = () => {
             alt="Angie Galván R"
           />
         </div>
-        <div id="quien-soy-mobile" className=" absolute bottom-24 right-0"/>
         </div>
       
     </section>

@@ -18,7 +18,8 @@ export const About = () => {
   };
 
   return (
-    <div id="quien-soy">
+    <div id="quien-soy" className="relative">
+        <div id="quien-soy-mobile" className=" absolute top-0"/>
       <section
         className="hidden lg:flex bg-(--color-fondo) w-[100vw] overflow-hidden"
 
@@ -117,7 +118,6 @@ export const About = () => {
                   RESERVA UNA ASESORÍA
                 </a>
               </div>
-              <div id="servicios-mobile" className="absolute bottom-5 right-0"/>
             </div>
           </div>
         </div>

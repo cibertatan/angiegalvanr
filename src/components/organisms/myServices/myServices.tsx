@@ -8,7 +8,8 @@ export const MyServices = () => {
   const [flipped, setFlipped] = useState({});
 
   return (
-    <div id="servicios">  
+    <div id="servicios" className="relative">  
+    <div id="servicios-mobile" className="absolute top-0"/>
     <section className="hidden lg:flex py-12 px-4 bg-(--color-fondo) flex flex-col items-center justify-center">
       <div className="w-[100vw] flex justify-center">
         <div className="w-[80vh] flex justify-center h-[40vh] top-0 left-0 right-0 bottom-0 "><img src="/assets/img/mis-servicios.png" alt="My Services" className="w-full h-full object-cover" /></div>

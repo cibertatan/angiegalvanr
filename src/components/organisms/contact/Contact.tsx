@@ -39,8 +39,10 @@ export const Contact = () => {
   // Función para verificar límite de envíos
   const checkSubmissionLimit = () => {
     const today = new Date().toDateString();
-    const submissions = JSON.parse(localStorage.getItem('emailSubmissions') || '{}');
-    
+    const submissions = JSON.parse(
+      localStorage.getItem("emailSubmissions") || "{}"
+    );
+
     if (submissions[today] >= 3) {
       return false;
     }
@@ -50,18 +52,23 @@ export const Contact = () => {
   // Función para registrar envío
   const recordSubmission = () => {
     const today = new Date().toDateString();
-    const submissions = JSON.parse(localStorage.getItem('emailSubmissions') || '{}');
+    const submissions = JSON.parse(
+      localStorage.getItem("emailSubmissions") || "{}"
+    );
     submissions[today] = (submissions[today] || 0) + 1;
-    localStorage.setItem('emailSubmissions', JSON.stringify(submissions));
+    localStorage.setItem("emailSubmissions", JSON.stringify(submissions));
   };
-
 
   const handleSubmit = async (
     values: typeof initialValues,
     { setSubmitting, resetForm }: any
   ) => {
     // Validate env configuration
-    if (!EMAIL_JS_SERVICE_ID || !EMAIL_JS_TEMPLATE_ID || !EMAIL_JS_PUBLIC_KEY) {
+    if (
+      !EMAIL_JS_SERVICE_ID ||
+      !EMAIL_JS_TEMPLATE_ID ||
+      !EMAIL_JS_PUBLIC_KEY
+    ) {
       setSubmitting(false);
       setMessage({
         type: "error",
@@ -86,7 +93,6 @@ export const Contact = () => {
     }
 
     try {
-
       const templateParams = {
         name: values.name,
         email: values.email,
@@ -101,11 +107,16 @@ export const Contact = () => {
         }),
       };
 
-      await emailjs.send(EMAIL_JS_SERVICE_ID, EMAIL_JS_TEMPLATE_ID, templateParams, EMAIL_JS_PUBLIC_KEY);
+      await emailjs.send(
+        EMAIL_JS_SERVICE_ID,
+        EMAIL_JS_TEMPLATE_ID,
+        templateParams,
+        EMAIL_JS_PUBLIC_KEY
+      );
 
       // Registrar el envío exitoso
       recordSubmission();
-      
+
       setSubmitting(false);
       resetForm();
       setMessage({
@@ -131,7 +142,8 @@ export const Contact = () => {
   };
 
   return (
-    <div id="contacto">
+    <div id="contacto" className="relative">
+        <div id="contacto-mobile" className="absolute top-0"/>
       <section
         className="hidden lg:flex flex-row w-full bg-(--color-acento)"
         style={{ padding: "80px" }}
@@ -178,7 +190,10 @@ export const Contact = () => {
             </div>
           </div>
         </div>
-        <div className="flex justify-center w-full" style={{ padding: "40px" }}>
+        <div
+          className="flex justify-center w-full"
+          style={{ padding: "40px" }}
+        >
           <Formik
             initialValues={initialValues}
             validationSchema={validationSchema}
@@ -294,27 +309,84 @@ export const Contact = () => {
         </div>
       </section>
 
-      <section className="flex lg:hidden z-100 flex-col items-center justify-center overflow-hidden w-full bg-(--color-acento)">
-        <div className="w-full max-w-md p-6">
+      <section
+        className="flex lg:hidden z-100 flex-col w-full bg-(--color-acento)"
+        style={{ paddingTop: "40px", paddingBottom: "40px" }}
+      >
+        {/* Información de contacto - Replicando exactamente la estructura de desktop */}
+        <div className="flex flex-col align-center w-full gap-2 mb-8">
+          <div className="flex justify-center w-[100vw] h-[80px] overflow-hidden relative">
+            <div
+              style={{ padding: "0 20px" }}
+              className="flex justify-center w-[120vw] h-[80px] top-0 absolute"
+            >
+              <img
+                src="/assets/img/contactame.png"
+                alt="My Services"
+                className="w-full h-full object-cover"
+              />
+            </div>
+          </div>
+          <div className="flex justify-center items-center gap-2">
+            <div className="w-[50px] flex justify-center h-[50px] top-0 left-0 right-0 bottom-0 ">
+              <img
+                src="/assets/img/whatsapp-phone-icon.png"
+                alt="My Services"
+                className="w-full h-full object-cover"
+              />
+            </div>
+            <h2 className="text-xl font-bold">+57 301 864 7226</h2>
+          </div>
+          <div className="flex justify-center items-center gap-2">
+            <div className="w-[50px] flex justify-center h-[50px] top-0 left-0 right-0 bottom-0 ">
+              <img
+                src="/assets/img/correo-electronico.png"
+                alt="My Services"
+                className="w-full h-full object-cover"
+              />
+            </div>
+            <h2 className="text-lg font-bold">angiegalvanr.cm@gmail.com</h2>
+          </div>
+          <div className="flex justify-center items-center">
+            <div className="w-[200px] flex justify-center h-[200px] top-0 left-0 right-0 bottom-0 ">
+              <img
+                src="/assets/img/logo-angie.png"
+                alt="My Services"
+                className="w-full h-full object-cover bg-(--color-blanco) rounded-full"
+              />
+            </div>
+          </div>
+        </div>
+
+        {/* Formulario - Replicando exactamente la estructura de desktop */}
+        <div
+          className="flex justify-center w-full"
+          style={{ padding: "20px" }}
+        >
           <Formik
             initialValues={initialValues}
             validationSchema={validationSchema}
             onSubmit={handleSubmit}
           >
-            {({ isSubmitting }) => (
-              <Form className="w-full space-y-4">
+            {({ isSubmitting, errors, touched }) => (
+              <Form className="w-full max-w-md space-y-4">
                 <div>
                   <Field
                     type="text"
                     name="name"
                     placeholder="Escribe tu nombre aquí"
-                    className="w-full px-4 py-3 rounded-lg border-0 focus:outline-none focus:ring-2 focus:ring-blue-500"
+                    style={{ padding: "5px 20px" }}
+                    className="w-full px-4 bg-(--color-blanco) py-3 rounded-full border-0 focus:outline-none focus:ring-2 focus:ring-rose-300"
                   />
-                  <ErrorMessage
-                    name="name"
-                    component="div"
-                    className="text-red-500 text-sm mt-1"
-                  />
+                  {errors.name && touched.name ? (
+                    <ErrorMessage
+                      name="name"
+                      component="div"
+                      className="text-red-500 text-sm mt-1"
+                    />
+                  ) : (
+                    <div style={{ marginBottom: "20px" }} />
+                  )}
                 </div>
 
                 <div>
@@ -322,13 +394,18 @@ export const Contact = () => {
                     type="email"
                     name="email"
                     placeholder="Correo electrónico"
-                    className="w-full px-4 py-3 rounded-lg border-0 focus:outline-none focus:ring-2 focus:ring-blue-500"
+                    style={{ padding: "5px 20px" }}
+                    className="w-full px-4 bg-(--color-blanco) py-3 rounded-full border-0 focus:outline-none focus:ring-2 focus:ring-rose-300"
                   />
-                  <ErrorMessage
-                    name="email"
-                    component="div"
-                    className="text-red-500 text-sm mt-1"
-                  />
+                  {errors.email && touched.email ? (
+                    <ErrorMessage
+                      name="email"
+                      component="div"
+                      className="text-red-500 text-sm mt-1"
+                    />
+                  ) : (
+                    <div style={{ marginBottom: "20px" }} />
+                  )}
                 </div>
 
                 <div>
@@ -336,52 +413,61 @@ export const Contact = () => {
                     type="tel"
                     name="phone"
                     placeholder="Teléfono"
-                    className="w-full px-4 py-3 rounded-lg border-0 focus:outline-none focus:ring-2 focus:ring-blue-500"
+                    style={{ padding: "5px 20px" }}
+                    className="w-full px-4 bg-(--color-blanco) py-3 rounded-full border-0 focus:outline-none focus:ring-2 focus:ring-rose-300"
                   />
-                  <ErrorMessage
-                    name="phone"
-                    component="div"
-                    className="text-red-500 text-sm mt-1"
-                  />
+                  {errors.phone && touched.phone ? (
+                    <ErrorMessage
+                      name="phone"
+                      component="div"
+                      className="text-red-500 text-sm mt-1"
+                    />
+                  ) : (
+                    <div style={{ marginBottom: "20px" }} />
+                  )}
                 </div>
 
-                <div>
+                <div style={{ paddingBottom: "10px" }}>
                   <Field
                     as="textarea"
                     name="message"
                     placeholder="Escribe aquí tu mensaje"
-                    rows={4}
-                    className="w-full px-4 py-3 rounded-lg border-0 focus:outline-none focus:ring-2 focus:ring-blue-500 resize-none"
-                  />
-                  <ErrorMessage
-                    name="message"
-                    component="div"
-                    className="text-red-500 text-sm mt-1"
+                    rows={6}
+                    style={{
+                      padding: "5px 20px",
+                      resize: "none",
+                      scrollbarWidth: "none",
+                      msOverflowStyle: "none",
+                    }}
+                    className="w-full h-[150px] px-4 bg-(--color-blanco) py-3 rounded-[20px] border-0 focus:outline-none focus:ring-2 focus:ring-rose-300 [&::-webkit-scrollbar]:hidden"
                   />
                 </div>
 
                 {/* Mensaje de estado */}
-                {message.type && (
+                {message.type ? (
                   <div
                     className={`mb-4 p-3 rounded-lg text-center transition-all duration-300 ${
                       message.type === "success"
                         ? "bg-green-100 text-green-800 border border-green-200"
                         : "bg-red-100 text-red-800 border border-red-200"
                     }`}
+                    style={{ marginBottom: "20px" }}
                   >
                     {message.text}
                   </div>
+                ) : (
+                  <div style={{ marginBottom: "40px" }} />
                 )}
 
                 <button
                   type="submit"
                   disabled={isSubmitting}
-                  className="w-full rounded-xl shadow-lg transition-all duration-200 hover:-translate-y-1 hover:shadow-2xl disabled:opacity-50 disabled:cursor-not-allowed disabled:transform-none"
+                  className="cursor-pointer rounded-xl shadow-lg transition-all duration-200 hover:-translate-y-1 hover:shadow-2xl disabled:opacity-50 disabled:cursor-not-allowed disabled:transform-none"
                   style={{
-                    padding: "1rem 2.5rem",
+                    padding: "0.7rem 1rem",
                     fontSize: "1.25rem",
                     color: "var(--color-blanco)",
-                    backgroundColor: "var(--texto-hero)",
+                    backgroundColor: "#355C7D",
                   }}
                 >
                   {isSubmitting ? "Enviando..." : "RESERVA UNA ASESORÍA"}
@@ -390,6 +476,7 @@ export const Contact = () => {
             )}
           </Formik>
         </div>
+        <SocialIcons relative />
       </section>
     </div>
   );
