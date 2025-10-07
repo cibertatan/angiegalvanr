@@ -110,7 +110,7 @@ export const Contact = () => {
       resetForm();
       setMessage({
         type: "success",
-        text: "¡Mensaje enviado correctamente! Te contactaremos pronto.",
+        text: "¡Mensaje enviado correctamente! Te contactaré pronto.",
       });
 
       setTimeout(() => {
