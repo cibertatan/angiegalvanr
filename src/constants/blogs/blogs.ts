@@ -90,7 +90,7 @@ export const BlogsSection: BlogPost[] = [
       </div>
     `,
     image:
-      "https://drive.google.com/file/d/1j5FqkNAifmw9HRtlU59czHbo53CEMbX2/view?usp=drive_link",
+      "https://static.wixstatic.com/media/0126c4_a4c7fb72b5544879ba2554d487554c34~mv2.png",
     author: "Angie Galván R",
     publishDate: "2024-01-15",
     readTime: "5 min",
@@ -118,7 +118,7 @@ export const BlogsSection: BlogPost[] = [
           <p>Si tu negocio está creciendo y no tienes tiempo para gestionar las redes sociales de manera profesional, es momento de considerar esta inversión.</p>
         `,
     image:
-      "https://drive.google.com/file/d/1wW10O8ZZP5uDqMJzUXNrTj70UOICcDVy/view?usp=drive_link",
+      "https://static.wixstatic.com/media/0126c4_4e58d9b71dcb4c939a67aa9f3678054c~mv2.png",
     author: "Angie Galván R",
     publishDate: "2024-01-10",
     readTime: "4 min",
@@ -146,7 +146,7 @@ export const BlogsSection: BlogPost[] = [
           <p>Mantén la consistencia, escribe sobre temas que dominas y siempre piensa en el valor que aportas a tus lectores.</p>
         `,
     image:
-      "https://drive.google.com/file/d/1VIQ0yk-juxMhCBetwFkwLcfCQCol20Bn/view?usp=drive_link",
+      "https://static.wixstatic.com/media/0126c4_bb01a6a092cb457fa9961fd0e3e8b643~mv2.png",
     author: "Angie Galván R",
     publishDate: "2024-01-05",
     readTime: "3 min",
@@ -175,7 +175,7 @@ export const BlogsSection: BlogPost[] = [
           <p>Define objetivos SMART, segmenta tu audiencia, crea contenido específico para cada campaña y analiza constantemente los resultados para optimizar.</p>
         `,
     image:
-      "https://drive.google.com/file/d/1ubKsVCTwjtOJ14drdBu5B3E7oyPWKbiU/view?usp=drive_link",
+      "https://static.wixstatic.com/media/0126c4_eaa0e720564642feaf1368c396bee7b3~mv2.png",
     author: "Angie Galván R",
     publishDate: "2024-01-01",
     readTime: "6 min",
