@@ -179,8 +179,7 @@ export const Contact = () => {
             </div>
             <h2 className="text-2xl font-bold">angiegalvanr.cm@gmail.com</h2>
           </div>
-          <SocialIcons relative />
-          <div className="flex justify-center items-center">
+          <div className="flex justify-center items-center gap-8 flex-col" style={{ marginTop: "20px" }}>
             <div className="w-[250px] flex justify-center h-[250px] top-0 left-0 right-0 bottom-0 ">
               <img
                 src="/assets/img/logo-angie.png"
@@ -188,6 +187,7 @@ export const Contact = () => {
                 className="w-full h-full object-cover bg-(--color-blanco) rounded-full"
               />
             </div>
+          <SocialIcons relative />
           </div>
         </div>
         <div
