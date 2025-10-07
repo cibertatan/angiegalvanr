@@ -1,6 +1,6 @@
 export function SocialIcons({relative}: {relative?: boolean}) {
 
-  const position = relative ? 'relative flex justify-center items-center lg:gap-6 gap-2' : 'absolute lg:top-[20vh] z-40 lg:left-[33vw] top-[30vh] left-10 flex justify-center items-center lg:gap-6 gap-2'
+  const position = relative ? 'relative flex justify-center items-center lg:gap-6 gap-2' : 'absolute lg:top-[20vh] z-40 lg:left-[30vw] top-[30vh] left-10 flex justify-center items-center lg:gap-6 gap-2'
 
   return (
     <div
