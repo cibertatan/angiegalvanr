@@ -44,9 +44,9 @@ export const About = () => {
               <div style={blurEffectStyleMobile}/>
 
               <div className="relative z-10 text-center">
-                <div className="w-[400px]" style={{paddingBottom: '10px'}}>
+                <div className="w-[420px]" style={{paddingBottom: '10px'}}>
                   <img
-                    className="w-full h-full object-cover"
+                    className="w-full h-full object-contain"
                     src="/assets/img/quien-soy.png"
                     alt="Quien soy"
                   />
