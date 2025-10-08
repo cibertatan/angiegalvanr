@@ -142,7 +142,7 @@ export const Contact = () => {
   };
 
   return (
-    <div id="contacto" className="relative">
+    <div id="contacto" className="relative w-[100vw] overflow-hidden">
         <div id="contacto-mobile" className="absolute top-0"/>
       <section
         className="hidden lg:flex flex-row w-full bg-(--color-acento)"
@@ -156,7 +156,7 @@ export const Contact = () => {
             <img
               src="/assets/img/contactame.png"
               alt="My Services"
-              className="w-full h-full object-cover"
+              className="w-full h-full object-contain"
             />
           </div>
           <div className="flex justify-center items-center gap-2">
@@ -187,7 +187,7 @@ export const Contact = () => {
                 className="w-full h-full object-cover bg-(--color-blanco) rounded-full"
               />
             </div>
-          <SocialIcons relative />
+          <SocialIcons />
           </div>
         </div>
         <div
@@ -318,12 +318,12 @@ export const Contact = () => {
           <div className="flex justify-center w-[100vw] h-[80px] overflow-hidden relative">
             <div
               style={{ padding: "0 20px" }}
-              className="flex justify-center w-[120vw] h-[80px] top-0 absolute"
+              className="flex justify-center w-[120vw]"
             >
               <img
                 src="/assets/img/contactame.png"
                 alt="My Services"
-                className="w-full h-full object-cover"
+                className="w-full h-full object-contain"
               />
             </div>
           </div>
