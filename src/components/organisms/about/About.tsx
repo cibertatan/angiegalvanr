@@ -44,19 +44,13 @@ export const About = () => {
               <div style={blurEffectStyleMobile}/>
 
               <div className="relative z-10 text-center">
-                <div className="h-[140px] w-[500px] absolute top-[-25vh] right-[-10vh]">
+                <div className="w-[400px]" style={{paddingBottom: '10px'}}>
                   <img
                     className="w-full h-full object-cover"
                     src="/assets/img/quien-soy.png"
                     alt="Quien soy"
                   />
                 </div>
-                <br />
-                <br />
-                <br />
-                <br />
-                <br />
-                <br />
                 <TextAbout />
                 <br />
                 <br />
@@ -85,16 +79,16 @@ export const About = () => {
             className="flex flex-row w-full border-[3px] border-(--divisor-border) rounded-2xl"
             style={{ paddingTop: "3rem", paddingBottom: "3rem" }}
           >
-            <div className="flex flex-col w-full relative">
-              <div className="h-[100px] w-[300px] absolute top-[-16vh] right-13">
+            <div className="flex flex-col w-full">
+              <div className="w-full flex justify-center items-center">
                 <img
-                  className="w-full h-full object-cover"
+                  className="w-[65%] object-cover"
                   src="/assets/img/quien-soy.png"
                   alt="Quien soy"
                 />
               </div>
               <div className="w-full flex justify-center items-center">
-              <div className="rounded-2xl w-[80%] overflow-hidden" style={{ marginTop: '70px' }}>
+              <div className="rounded-2xl w-[80%] overflow-hidden" style={{ marginTop: '20px' }}>
                 <img
                   className="w-full h-full object-cover"
                   src="/assets/img/foto-quien-soy.jpg"

@@ -7,23 +7,24 @@ export const BlogSection = () => {
   const secondBlog = [BlogsSection[1], BlogsSection[3]];
 
   return (
-    <div id="servicios" className="flex flex-col items-center justify-center">
+    <div id="servicios" className="flex flex-col items-center justify-center w-[100vw] overflow-hidden">
       {/* Desktop */}
       <section
         className="hidden lg:flex bg-(--color-fondo) justify-center w-full max-w-[1920px] mx-auto flex flex-row"
         style={{ paddingTop: "15vh", paddingBottom: "15vh" }}
       >
-        <div className="flex max-w-[450px] w-full flex-col overflow-hidden">
-          <div className="flex justify-start">
-            <div className="w-[450px] flex justify-center h-[250px]">
+        <div className="flex max-w-[450px] w-full flex-col align-center overflow-hidden ">
+          <div className="flex justify-center" style={{paddingBottom: '40px'}}>
+
+            <div className="w-[250px]">
               <img
                 src="/assets/img/blog.png"
                 alt="My Services"
                 className="w-full h-full object-cover"
-              />
+                />
             </div>
-          </div>
-          <div className="flex justify-center" style={{ marginTop: "-80px" }}>
+                </div>
+          <div className="flex justify-center">
             <div className="w-[300px] flex justify-center h-[250px] overflow-hidden rounded-2xl">
               <img
                 src="/assets/img/bogSection.jpg"
@@ -63,11 +64,11 @@ export const BlogSection = () => {
       {/* Mobile */}
       <section className="flex lg:hidden py-12 px-4 bg-(--color-fondo) flex flex-col items-center justify-center">
         <div className="w-[100vw] flex justify-center" style={{ marginTop: "40px" }}>
-          <div className="w-[300px] flex justify-center h-[150px] top-0 left-0 right-0 bottom-0 ">
+          <div className="w-[150px] flex justify-center" style={{paddingBottom: '60px'}}>
             <img
               src="/assets/img/blog.png"
               alt="Blogs"
-              className="w-full h-full object-cover"
+              className="w-full h-full object-contain"
             />
           </div>
         </div>

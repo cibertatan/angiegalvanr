@@ -12,9 +12,9 @@ export const MyServices = () => {
     <div id="servicios-mobile" className="absolute top-0"/>
     <section className="hidden lg:flex py-12 px-4 bg-(--color-fondo) flex flex-col items-center justify-center">
       <div className="w-[100vw] flex justify-center">
-        <div className="w-[80vh] flex justify-center h-[40vh] top-0 left-0 right-0 bottom-0 "><img src="/assets/img/mis-servicios.png" alt="My Services" className="w-full h-full object-cover" /></div>
+        <div className="w-[70vh] flex justify-center" style={{paddingTop: '20px', paddingBottom: '40px'}}><img src="/assets/img/mis-servicios.png" alt="My Services" className="w-full h-full object-cover" /></div>
       </div>
-      <div className="w-full flex justify-center" style={{marginTop: '-100px'}}>
+      <div className="w-full flex justify-center">
       <Flipper flipKey={Object.values(flipped).join('')}>
         <div className="w-full flex justify-center mt-[-100px]">
           <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8 w-full max-w-5xl"  style={{paddingBottom: '20px'}}>
@@ -51,13 +51,13 @@ export const MyServices = () => {
       </Flipper>
       </div>
     </section>
-    <section className="flex lg:hidden py-12 px-4 bg-(--color-fondo) flex flex-col items-center justify-center">
-    <div className="w-[100vw] flex justify-center" style={{marginTop: '40px'}}>
-        <div className="w-[300px] flex justify-center h-[150px] top-0 left-0 right-0 bottom-0 ">
+    <section className="flex lg:hidden w-[100vw] overflow-hidden bg-(--color-fondo) flex flex-col items-center justify-center">
+    <div className="w-full flex justify-center align-center" style={{marginTop: '40px'}}>
+        <div className="w-[300px] flex justify-center ">
           <img src="/assets/img/mis-servicios.png" alt="My Services" className="w-full h-full object-cover" />
           </div>
       </div>
-      <div className="w-full flex h-[420px]" style={{padding: '20px 10px', marginTop: '-80px'}}>
+      <div className="w-full flex h-[420px]" style={{padding: '20px 10px'}}>
         <ImageCarousel services={services} />
       </div>
     </section>
