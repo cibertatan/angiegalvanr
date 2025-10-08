@@ -27,7 +27,7 @@ export const Hero = () => {
     
      <section className="flex lg:hidden z-20 items-end justify-end overflow-hidden w-full bg-(--color-acento)">
       {/* Text container */}
-      <div className="flex justify-end items-end relative w-full h-[50vh] relative">
+      <div className="flex justify-end items-end relative w-full h-[55vh] relative">
         <div className="flex flex-col justify-center items-center gap-6 absolute top-35 left-1">
          <div className="flex w-[30vh]">
          <img src="/assets/img/community-manager.png" alt="Angie Galván R" className="w-full h-full object-contain" />
