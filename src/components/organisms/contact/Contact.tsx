@@ -476,7 +476,7 @@ export const Contact = () => {
             )}
           </Formik>
         </div>
-        <SocialIcons relative />
+        <SocialIcons />
       </section>
     </div>
   );
