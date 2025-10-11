@@ -4,6 +4,7 @@ import * as Yup from "yup";
 import emailjs from "@emailjs/browser";
 import { emailJsConfig } from "@/config/env";
 import { useState } from "react";
+import { PHONE_NUMBER } from "@/constants";
 
 // Config centralizada de EmailJS
 const EMAIL_JS_SERVICE_ID = emailJsConfig.serviceId as string | undefined;
@@ -167,7 +168,7 @@ export const Contact = () => {
                 className="w-full h-full object-cover"
               />
             </div>
-            <h2 className="text-2xl font-bold">+57 301 864 7226</h2>
+            <h2 className="text-2xl font-bold">+57 {PHONE_NUMBER}</h2>
           </div>
           <div className="flex justify-center items-center gap-2">
             <div className="w-[50px] flex justify-center h-[50px] top-0 left-0 right-0 bottom-0 ">
@@ -334,8 +335,8 @@ export const Contact = () => {
                 alt="My Services"
                 className="w-full h-full object-cover"
               />
-            </div>
-            <h2 className="text-xl font-bold">+57 301 864 7226</h2>
+              </div>
+              <h2 className="text-xl font-bold">+57 {PHONE_NUMBER}</h2>
           </div>
           <div className="flex justify-center items-center gap-2">
             <div className="w-[50px] flex justify-center h-[50px] top-0 left-0 right-0 bottom-0 ">

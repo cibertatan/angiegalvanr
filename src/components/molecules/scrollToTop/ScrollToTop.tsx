@@ -3,7 +3,6 @@ import { useState, useEffect } from 'react';
 export const ScrollToTop = () => {
   const [isVisible, setIsVisible] = useState(false);
 
-  // Mostrar el botón cuando el usuario haga scroll hacia abajo
   useEffect(() => {
     const toggleVisibility = () => {
       if (window.pageYOffset > 300) {

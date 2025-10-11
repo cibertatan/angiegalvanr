@@ -1,12 +1,13 @@
+import { PHONE_NUMBER } from '@/constants';
 import { useState } from 'react';
 
 export const WhatsAppFloat = () => {
   const [isHovered, setIsHovered] = useState(false);
 
   const handleWhatsAppClick = () => {
-    const phoneNumber = '573018647226';
+    const phoneNumber = PHONE_NUMBER;
     const message = encodeURIComponent('¡Hola! Me interesa conocer más sobre tus servicios de marketing digital.');
-    const whatsappUrl = `https://api.whatsapp.com/send?phone=${phoneNumber}&text=${message}`;
+    const whatsappUrl = `https://api.whatsapp.com/send?phone=57${phoneNumber}&text=${message}`;
     
     window.open(whatsappUrl, '_blank');
   };
