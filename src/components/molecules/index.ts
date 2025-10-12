@@ -4,3 +4,4 @@ export * from './whatsappFloat';
 export * from './scrollToTop';
 export * from './ebookPopup';
 export * from './termsModal';
+export * from './blogCard';

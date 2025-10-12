@@ -1,7 +1,7 @@
 import { useState, useMemo } from "react";
 import { useNavigate } from "react-router";
 import { BlogsSection, BlogPost } from "@constants/blogs";
-import { BlogCard } from "@/components/molecules/blogCard/blogCard";
+import { BlogCard } from "@/components";
 
 export const Blogs = () => {
   const navigate = useNavigate();
