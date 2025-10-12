@@ -63,10 +63,13 @@ export function SEO({
     updatePropertyMetaTag('og:description', finalDescription);
     updatePropertyMetaTag('og:image', finalImage);
     updatePropertyMetaTag('og:url', finalUrl);
-    updatePropertyMetaTag('og:image:width', '1200');
-    updatePropertyMetaTag('og:image:height', '630');
+    updatePropertyMetaTag('og:image:width', '1000');
+    updatePropertyMetaTag('og:image:height', '1000');
     updatePropertyMetaTag('og:image:alt', finalTitle);
+    updatePropertyMetaTag('og:image:type', 'image/png');
+    updatePropertyMetaTag('og:image:secure_url', finalImage);
     updatePropertyMetaTag('og:site_name', 'Angie Galvan R');
+    updatePropertyMetaTag('og:locale', 'es_ES');
     
     // Actualizar Twitter tags
     updatePropertyMetaTag('twitter:title', finalTitle);
