@@ -1,5 +1,6 @@
 import { useState, useEffect } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
+import { useNavigate } from "react-router";
 
 interface EbookPopupProps {
   isOpen: boolean;
@@ -8,6 +9,7 @@ interface EbookPopupProps {
 
 export const EbookPopup = ({ isOpen, onClose }: EbookPopupProps) => {
   const [isVisible, setIsVisible] = useState(false);
+  const navigate = useNavigate();
 
   useEffect(() => {
     if (isOpen) {
@@ -24,7 +26,7 @@ export const EbookPopup = ({ isOpen, onClose }: EbookPopupProps) => {
 
   const handleDownload = () => {
     // Aquí puedes agregar la lógica para descargar el ebook
-    alert('Descargando ebook...');
+    navigate(`/form/social-media-management`);
     // Por ejemplo, redirigir a un enlace de descarga
     // window.open('https://tu-enlace-de-descarga.com', '_blank');
   };
