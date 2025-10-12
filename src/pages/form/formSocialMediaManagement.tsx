@@ -292,55 +292,23 @@ export const FormSocialMediaManagement = () => {
       </section>
 
       <section
-        className="flex lg:hidden z-100 flex-col w-full bg-(--color-acento)"
-        style={{ padding: "20px" }}
+        className="flex lg:hidden z-100 flex-col w-full h-[calc(100vh-260px)] bg-(--color-acento)"
       >
-        {/* Información de contacto - Replicando exactamente la estructura de desktop */}
-        <div className="flex flex-col align-center w-full gap-2 mb-8">
+        <div className="flex flex-col align-center w-full gap-2 mb-8" style={{marginTop: "20px"}}>
           <div className="flex justify-center w-[100vw] h-[80px] overflow-hidden relative">
             <div
               style={{ padding: "0 20px" }}
               className="flex justify-center w-[120vw]"
             >
               <img
-                src="/assets/img/contactame.png"
+                src="/assets/img/titulo-formulario-ebook.png"
                 alt="My Services"
                 className="w-full h-full object-contain"
               />
             </div>
           </div>
-          <div className="flex justify-center items-center gap-2">
-            <div className="w-[50px] flex justify-center h-[50px] top-0 left-0 right-0 bottom-0 ">
-              <img
-                src="/assets/img/whatsapp-phone-icon.png"
-                alt="My Services"
-                className="w-full h-full object-cover"
-              />
-            </div>
-            <h2 className="text-xl font-bold">+57 {PHONE_NUMBER}</h2>
-          </div>
-          <div className="flex justify-center items-center gap-2">
-            <div className="w-[50px] flex justify-center h-[50px] top-0 left-0 right-0 bottom-0 ">
-              <img
-                src="/assets/img/correo-electronico.png"
-                alt="My Services"
-                className="w-full h-full object-cover"
-              />
-            </div>
-            <h2 className="text-lg font-bold">angiegalvanr.cm@gmail.com</h2>
-          </div>
-          <div className="flex justify-center items-center">
-            <div className="w-[200px] flex justify-center h-[200px] top-0 left-0 right-0 bottom-0 ">
-              <img
-                src="/assets/img/logo-angie.png"
-                alt="My Services"
-                className="w-full h-full object-cover bg-(--color-blanco) rounded-full"
-              />
-            </div>
-          </div>
         </div>
 
-        {/* Formulario - Replicando exactamente la estructura de desktop */}
         <div
           className="flex justify-center w-full"
           style={{ padding: "20px" }}
@@ -464,7 +432,6 @@ export const FormSocialMediaManagement = () => {
             )}
           </Formik>
         </div>
-        <SocialIcons />
       </section>
       
       {/* Modal de Términos y Condiciones */}
