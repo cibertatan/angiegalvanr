@@ -246,7 +246,7 @@ export const FormSocialMediaManagement = () => {
                     className="text-sm text-gray-700 leading-relaxed cursor-pointer"
                     onClick={() => setIsTermsModalOpen(true)}
                   >
-                    Acepto la Política de protección de datos personales y los términos y condiciones.
+                    Acepto la <span className="text-blue-600 underline">Política de protección de datos personales</span> y los términos y condiciones.
                     <span className="text-red-500">*</span>
                   </label>
                 </div>
@@ -294,7 +294,7 @@ export const FormSocialMediaManagement = () => {
       <section
         className="flex lg:hidden z-100 flex-col w-full h-[calc(100vh-260px)] bg-(--color-acento)"
       >
-        <div className="flex flex-col align-center w-full gap-2 mb-8" style={{marginTop: "20px"}}>
+        <div className="flex flex-col align-center w-full gap-2 mb-8" style={{marginTop: "50px"}}>
           <div className="flex justify-center w-[100vw] h-[80px] overflow-hidden relative">
             <div
               style={{ padding: "0 20px" }}
@@ -389,7 +389,7 @@ export const FormSocialMediaManagement = () => {
                     className="text-sm text-gray-700 leading-relaxed cursor-pointer"
                     onClick={() => setIsTermsModalOpen(true)}
                   >
-                    Acepto la Política de protección de datos personales y los términos y condiciones.
+                    Acepto la <span className="text-blue-600 underline"> Política de protección de datos personales</span>, los términos y condiciones.
                     <span className="text-red-500">*</span>
                   </label>
                 </div>
