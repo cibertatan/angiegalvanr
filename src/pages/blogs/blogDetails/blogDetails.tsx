@@ -27,13 +27,13 @@ export const BlogDetails = () => {
           {/* Header */}
           <div className="mb-8">            
             <h1 
-              className="text-3xl md:text-4xl lg:text-5xl font-bold mb-4 leading-tight"
+              className="text-4xl lg:text-5xl font-bold leading-tight"
               style={{ color: '#355C7D', marginBottom: "10px" }}
             >
               {blog.title}
             </h1>
             
-            <p className="text-xl text-gray-600" style={{ marginBottom: "20px" }}>
+            <p className="text-2xl text-gray-600" style={{ marginBottom: "20px" }}>
               {blog.description}
             </p>
             
