@@ -30,7 +30,7 @@ export const BlogsSection: BlogPost[] = [
     title: "Cómo organizar una parrilla de contenido paso a paso",
     slug: "como-organizar-una-parrilla-de-contenido-paso-a-paso",
     colorTitle: "#355C7D",
-    description: "Aprende a darle orden a lo que publicas cada semana",
+    description: "Aprende a darle orden a lo que publicas cada semana.",
     content: `
       <div style="font-family: serif; line-height: 1.6; color: #333; text-align: left;">
         <p style="margin-bottom: 16px;">En redes sociales, la improvisación rara vez da buenos resultados. Para mantener coherencia, constancia y creatividad, la mejor herramienta es la <strong>parrilla de contenido</strong>. Este recurso permite planificar cada publicación con antelación, garantizando que los mensajes estén alineados con los objetivos y que haya un equilibrio entre lo informativo, lo creativo y lo promocional.</p>
@@ -101,7 +101,7 @@ export const BlogsSection: BlogPost[] = [
     title: "Ventajas de tener un Community Manager en tu marca",
     slug: "ventajas-de-tener-un-community-manager-en-tu-marca",
     colorTitle: "#355C7D",
-    description: "Delegar es una decisión estratégica. Te cuento por qué",
+    description: "Delegar es una decisión estratégica. Te cuento por qué.",
     content: `
           <h2>¿Qué hace un Community Manager?</h2>
           <p>Un Community Manager es el responsable de gestionar la presencia de tu marca en las redes sociales, creando y manteniendo relaciones con tu audiencia.</p>
@@ -129,7 +129,7 @@ export const BlogsSection: BlogPost[] = [
     title: "Por qué tener un blog fortalece tu presencia digital",
     slug: "por-que-tener-un-blog-fortalece-tu-presencia-digital",
     colorTitle: "#e57373",
-    description: "Es posicionamiento, confianza y contenido que trabaja por ti",
+    description: "Es posicionamiento, confianza y contenido que trabaja por ti.",
     content: `
           <h2>El poder del contenido de valor</h2>
           <p>Un blog es una herramienta fundamental para cualquier estrategia digital. No solo mejora tu SEO, sino que establece tu autoridad en el sector.</p>
@@ -158,7 +158,7 @@ export const BlogsSection: BlogPost[] = [
     slug: "errores-comunes-al-pautar-en-redes-y-como-evitarlos",
     colorTitle: "#e57373",
     description:
-      'Pautar no es darle "promocionar publicación". Aquí te explico cómo hacerlo bien',
+      'Pautar no es darle "promocionar publicación". Aquí te explico cómo hacerlo bien.',
     content: `
           <h2>¿Qué es realmente pautar en redes sociales?</h2>
           <p>Pautar va más allá de simplemente "promocionar" una publicación. Es una estrategia integral que requiere planificación, segmentación y análisis.</p>
