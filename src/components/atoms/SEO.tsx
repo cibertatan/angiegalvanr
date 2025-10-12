@@ -63,12 +63,17 @@ export function SEO({
     updatePropertyMetaTag('og:description', finalDescription);
     updatePropertyMetaTag('og:image', finalImage);
     updatePropertyMetaTag('og:url', finalUrl);
+    updatePropertyMetaTag('og:image:width', '1200');
+    updatePropertyMetaTag('og:image:height', '630');
+    updatePropertyMetaTag('og:image:alt', finalTitle);
+    updatePropertyMetaTag('og:site_name', 'Angie Galvan R');
     
     // Actualizar Twitter tags
     updatePropertyMetaTag('twitter:title', finalTitle);
     updatePropertyMetaTag('twitter:description', finalDescription);
     updatePropertyMetaTag('twitter:image', finalImage);
     updatePropertyMetaTag('twitter:url', finalUrl);
+    updatePropertyMetaTag('twitter:image:alt', finalTitle);
     
   }, [title, description, keywords, image, url, page]);
   
