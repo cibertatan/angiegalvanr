@@ -1,0 +1,10 @@
+Options -MultiViews
+RewriteEngine On
+
+# Handle client-side routing for SPA
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^ index.html [QSA,L]
+
+# Redirect 404 errors to home page
+ErrorDocument 404 /index.html

@@ -21,6 +21,11 @@ export default defineConfig({
     postcss: './postcss.config.js',
   },
   server: {
-    host: true
+    host: true,
+    historyApiFallback: true
+  },
+  preview: {
+    host: true,
+    historyApiFallback: true
   }
 })

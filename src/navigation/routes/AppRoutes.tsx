@@ -1,4 +1,4 @@
-import { Routes, Route } from 'react-router';
+import { Routes, Route, Navigate } from 'react-router';
 import { routes } from './routeConfig';
 import { Home, BlogDetails, Blogs, FormSocialMediaManagement } from '@pages';
 import { Layout } from '@components/layout';
@@ -9,5 +9,7 @@ export const AppRoutes = () => (
     <Route path={routes.blog} element={<Layout><Blogs /></Layout>} />
     <Route path={routes.form} element={<Layout><FormSocialMediaManagement /></Layout>} />
     <Route path={routes.blogDetail} element={<Layout><BlogDetails /></Layout>} />
+    {/* Catch-all route: redirect any unknown route to home */}
+    <Route path="*" element={<Navigate to={routes.home} replace />} />
   </Routes>
 );
