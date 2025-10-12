@@ -1,14 +1,6 @@
 import { BlogCardProps } from "./types";
 
 export const BlogCard = ({ blog, onClick }: BlogCardProps) => {
-    const formatDate = (dateString: string) => {
-      const date = new Date(dateString);
-      return date.toLocaleDateString('es-ES', {
-        year: 'numeric',
-        month: 'short',
-        day: 'numeric'
-      });
-    };
   
     return (
       <article 
@@ -59,15 +51,10 @@ export const BlogCard = ({ blog, onClick }: BlogCardProps) => {
   
           {/* Meta Info */}
           <div className="flex items-center justify-between text-sm text-[#a97c8a]">
-            <div className="flex items-cente gap-2">
-              <span>•</span>
-              <span>{formatDate(blog.publishDate)}</span>
-              <span>•</span>
-              <span>{blog.readTime} lectura</span>
-              <span>•</span>
-            <div className="font-semibold">
-              {blog.author}
-            </div>
+            <div className="flex items-cente gap-4">
+              <span>• {blog.publishDate}</span>
+              <span>• {blog.readTime} lectura</span>
+              <span>•<span className="font-semibold" style={{marginLeft: '2px'}}> {blog.author}</span></span>
             </div>
           </div>
         </div>
