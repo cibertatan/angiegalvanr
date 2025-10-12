@@ -200,7 +200,7 @@ export const FormSocialMediaManagement = () => {
                   <Field
                     type="text"
                     name="phone"
-                    placeholder="¿Cúal es tu numero de Celular?"
+                    placeholder="¿Cúal es tu número de celular?"
                     style={{ padding: "5px 20px" }}
                     className="w-full px-4 bg-(--color-blanco) py-3 rounded-full border-0 focus:outline-none focus:ring-2 focus:ring-rose-300"
                   />
@@ -343,7 +343,7 @@ export const FormSocialMediaManagement = () => {
                   <Field
                     type="text"
                     name="phone"
-                    placeholder="¿Cúal es tu numero de Celular?"
+                    placeholder="¿Cúal es tu número de celular?"
                     style={{ padding: "5px 20px" }}
                     className="w-full px-4 bg-(--color-blanco) py-3 rounded-full border-0 focus:outline-none focus:ring-2 focus:ring-rose-300"
                   />
