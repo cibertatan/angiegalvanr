@@ -1,6 +1,7 @@
 import { useParams, Navigate } from 'react-router';
 import { getBlogBySlug } from '@constants/blogs/blogs';
 import { SEO } from '@components/atoms';
+import { useScrollToTop } from '../../../hooks';
 
 export const BlogDetails = () => {
   const { slug } = useParams<{ slug: string }>();
@@ -14,6 +15,9 @@ export const BlogDetails = () => {
   if (!blog) {
     return <Navigate to="/blog" replace />;
   }
+
+  // Scroll to top when component mounts or slug changes
+  useScrollToTop([slug]);
 
   return (
     <>

@@ -15,6 +15,7 @@ export default defineConfig({
       '@navigation': path.resolve(__dirname, './src/navigation'),
       '@pages': path.resolve(__dirname, './src/pages'),
       '@constants': path.resolve(__dirname, './src/constants'),
+      '@hooks': path.resolve(__dirname, './src/hooks'),
     },
   },
   css: {

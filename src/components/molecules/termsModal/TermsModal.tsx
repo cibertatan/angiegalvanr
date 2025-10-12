@@ -52,7 +52,7 @@ export const TermsModal = ({ isOpen, onClose }: TermsModalProps) => {
               >
                 <h2 className="text-2xl font-bold text-center">
                   Política de protección de datos personales, términos y
-                  condiciones.
+                  condiciones:
                 </h2>
                 {/* Close Button */}
                 <button

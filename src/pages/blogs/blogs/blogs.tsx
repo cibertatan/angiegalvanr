@@ -2,11 +2,15 @@ import { useState, useMemo } from "react";
 import { useNavigate } from "react-router";
 import { BlogsSection, BlogPost } from "@constants/blogs";
 import { BlogCard } from "@/components";
+import { useScrollToTop } from "@hooks";
 
 export const Blogs = () => {
   const navigate = useNavigate();
   const [searchTerm, setSearchTerm] = useState("");
   const [selectedTag, setSelectedTag] = useState("");
+
+  // Scroll to top when component mounts
+  useScrollToTop();
 
   // Get all unique tags from blogs
   const allTags = useMemo(() => {

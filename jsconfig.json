@@ -12,7 +12,9 @@
       "@navigation": ["src/navigation"],
       "@navigation/*": ["src/navigation/*"],
       "@constants": ["src/constants"],
-      "@constants/*": ["src/constants/*"]
+      "@constants/*": ["src/constants/*"],
+      "@hooks": ["src/hooks"],
+      "@hooks/*": ["src/hooks/*"]
     }
   }
 } 
