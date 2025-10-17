@@ -2,7 +2,7 @@ User-agent: *
 Allow: /
 
 # Sitemap
-Sitemap: https://angiegalvanr.com/sitemap.xml
+Sitemap: https://angiegalvanr.lat/sitemap.xml
 
 # Crawl-delay
 Crawl-delay: 1 
