@@ -110,6 +110,8 @@ export const BlogsSection: BlogPost[] = [
 <p>Organizar una parrilla de contenido para redes sociales no solo ahorra tiempo, también da claridad y coherencia a la estrategia digital. Con planificación y análisis constante, cada publicación se convierte en una oportunidad para crecer y conectar con la audiencia.</p>
 <br />
 <p>Si buscas optimizar tus redes sociales y necesitas alguien que gestione la estrategia de manera profesional, como <strong>community manager</strong> puedo acompañarte en este proceso para que tus contenidos sean más efectivos y tu comunicación digital alcance mejores resultados. <a href="https://api.whatsapp.com/send?phone=573138283662&text=%C2%A1Hola!%20Me%20interesa%20conocer%20m%C3%A1s%20sobre%20tus%20servicios%20de%20marketing%20digital." target="_blank" rel="noopener noreferrer" style="color: #0066cc; text-decoration: underline;"><strong>¡Contáctame aquí!</strong></a></p>
+<br />
+<p><strong>CONCLUSIÓN</strong></p>
 </div>`,
     image:
       "https://static.wixstatic.com/media/0126c4_a4c7fb72b5544879ba2554d487554c34~mv2.png",
