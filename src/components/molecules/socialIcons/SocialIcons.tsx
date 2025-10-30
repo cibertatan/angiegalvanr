@@ -7,7 +7,7 @@ export function SocialIcons() {
       <a href="https://www.instagram.com/angiegalvanr?igsh=MXA5OHhhOWRqa2hydw%3D%3D&utm_source=qr" target="_blank" rel="noopener noreferrer">
         <img src="/assets/img/instagran.svg" alt="Instagram" className="lg:w-[40px] lg:h-[40px] w-[40px] h-[40px] transition-transform duration-300 ease-in-out hover:scale-120"></img>
       </a>
-      <a href="https://www.facebook.com/angiemagalvan" target="_blank" rel="noopener noreferrer">
+      <a href="https://www.facebook.com/share/17mmBxv5Vq/?mibextid=wwXIfr" target="_blank" rel="noopener noreferrer">
         <img src="/assets/img/facebook.svg" alt="Facebook" className="lg:w-[40px] lg:h-[40px] w-[40px] h-[40px] transition-transform duration-300 ease-in-out hover:scale-120"></img>
       </a>
       <a href="https://www.linkedin.com/in/angelicagalvanr?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app" target="_blank" rel="noopener noreferrer">
