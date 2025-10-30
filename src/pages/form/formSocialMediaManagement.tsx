@@ -10,6 +10,8 @@ import { PHONE_NUMBER } from "@/constants";
 const EMAIL_JS_SERVICE_ID = emailJsConfig.serviceId as string | undefined;
 const EMAIL_JS_TEMPLATE_ID = emailJsConfig.templateId as string | undefined;
 const EMAIL_JS_PUBLIC_KEY = emailJsConfig.publicKey as string | undefined;
+const EBOOK_URL =
+  "https://0126c410-ed7b-48f8-ae28-51297d1446ea.usrfiles.com/ugd/0126c4_94329ec28b1f4b0b9cb3cfd34743f5fd.pdf";
 
 const validationSchema = Yup.object({
   name: Yup.string()
@@ -67,6 +69,10 @@ export const FormSocialMediaManagement = () => {
     values: typeof initialValues,
     { setSubmitting, resetForm }: any
   ) => {
+    // Pre-abrir una pestaña en respuesta directa al gesto del usuario
+    // para evitar bloqueadores de pop-ups en móviles (iOS/Android)
+    const preOpenedWindow = window.open("", "_blank");
+
     // Validate env configuration
     if (
       !EMAIL_JS_SERVICE_ID ||
@@ -78,6 +84,10 @@ export const FormSocialMediaManagement = () => {
         type: "error",
         text: "Falta configuración de EmailJS. Verifica variables de entorno.",
       });
+      // Cerrar la pestaña pre-abierta si hubo error temprano
+      try {
+        preOpenedWindow?.close();
+      } catch {}
       setTimeout(() => {
         setMessage({ type: null, text: "" });
       }, 5000);
@@ -90,6 +100,10 @@ export const FormSocialMediaManagement = () => {
         type: "error",
         text: "Has alcanzado el límite de 2 descargas por día. Inténtalo mañana.",
       });
+      // Cerrar la pestaña pre-abierta si no se permite el envío
+      try {
+        preOpenedWindow?.close();
+      } catch {}
       setTimeout(() => {
         setMessage({ type: null, text: "" });
       }, 5000);
@@ -128,8 +142,30 @@ export const FormSocialMediaManagement = () => {
         text: "¡Ebook enviado correctamente! Redirigiendo...",
       });
 
-      // Abrir nueva pestaña con el link
-      window.open("https://0126c410-ed7b-48f8-ae28-51297d1446ea.usrfiles.com/ugd/0126c4_94329ec28b1f4b0b9cb3cfd34743f5fd.pdf", "_blank");
+      // Navegar la pestaña pre-abierta al recurso del ebook
+      if (preOpenedWindow) {
+        try {
+          preOpenedWindow.location.href = EBOOK_URL;
+        } catch {
+          // Fallback: crear un enlace y disparar click
+          const a = document.createElement("a");
+          a.href = EBOOK_URL;
+          a.target = "_blank";
+          a.rel = "noopener";
+          document.body.appendChild(a);
+          a.click();
+          a.remove();
+        }
+      } else {
+        // Si el navegador bloqueó la pre-apertura, intentar con un enlace programático
+        const a = document.createElement("a");
+        a.href = EBOOK_URL;
+        a.target = "_blank";
+        a.rel = "noopener";
+        document.body.appendChild(a);
+        a.click();
+        a.remove();
+      }
       
       // Redirigir al home después de 2 segundos
       setTimeout(() => {
@@ -142,6 +178,11 @@ export const FormSocialMediaManagement = () => {
         type: "error",
         text: "Hubo un error al enviar el mensaje. Por favor, inténtalo de nuevo.",
       });
+
+      // Cerrar la pestaña pre-abierta si hubo error en el envío
+      try {
+        preOpenedWindow?.close();
+      } catch {}
 
       setTimeout(() => {
         setMessage({ type: null, text: "" });
@@ -385,7 +426,7 @@ export const FormSocialMediaManagement = () => {
                     style={{ marginTop: "4px" }}
                   />
                   <label
-                    htmlFor="acceptTerms"
+                    htmlFor="acceptTermsMobile"
                     className="text-sm text-gray-700 leading-relaxed cursor-pointer"
                     onClick={() => setIsTermsModalOpen(true)}
                   >
