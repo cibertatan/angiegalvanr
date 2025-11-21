@@ -265,7 +265,7 @@ export const BlogsSection: BlogPost[] = [
     image:
       "https://static.wixstatic.com/media/0126c4_eaa0e720564642feaf1368c396bee7b3~mv2.png",
     author: "Angie Galván R",
-    publishDate: "2024-01-01",
+    publishDate: "2025-11-21",
     readTime: "3 min",
     tags: ["Publicidad", "Redes Sociales", "Marketing Digital"],
   },
