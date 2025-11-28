@@ -277,10 +277,6 @@ export const BlogsSection: BlogPost[] = [
     description:
       'Aprende a crear contenido que conecta, convence y vende en redes sociales. Descubre estrategias prácticas para atraer clientes y mejorar tus resultados digitales.',
     content: `<div style="font-size: 24px; line-height: 1.2;">
-<p><strong>Cómo crear contenido que genere ventas en redes sociales</strong></p>
-<br />
-<p><img src="https://static.wixstatic.com/media/0126c4_1044f095895141bb9392ca6f8d405425~mv2.jpg" alt="Cómo crear contenido que genere ventas en redes sociales" style="max-width: 100%; height: auto;" /></p>
-<br />
 <p><span style="font-weight: 400;">Vender en redes sociales no es cuestión de suerte, es estrategia, claridad en el mensaje y una comprensión profunda de lo que tu audiencia necesita. En un entorno donde miles de publicaciones compiten por atención, crear contenido que realmente convierta es el mayor reto… y también la mayor oportunidad. Aquí te explico cómo lograrlo.</span></p>
 <br />
 <h2><strong>1. Conoce a tu audiencia y su intención de búsqueda</strong></h2>
