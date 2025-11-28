@@ -265,7 +265,7 @@ export const BlogsSection: BlogPost[] = [
     image:
       "https://static.wixstatic.com/media/0126c4_eaa0e720564642feaf1368c396bee7b3~mv2.png",
     author: "Angie Galván R",
-    publishDate: "2025-11-21",
+    publishDate: "21-11-2025",
     readTime: "3 min",
     tags: ["Publicidad", "Redes Sociales", "Marketing Digital"],
   },
@@ -346,7 +346,7 @@ export const BlogsSection: BlogPost[] = [
     image:
       "https://static.wixstatic.com/media/0126c4_1044f095895141bb9392ca6f8d405425~mv2.jpg",
     author: "Angie Galván R",
-    publishDate: "2025-11-21",
+    publishDate: "28-11-2025",
     readTime: "3 min",
     tags: ["Parrilla de contenidos", "Gestión de redes sociales"],
   },
