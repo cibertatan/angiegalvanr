@@ -269,6 +269,87 @@ export const BlogsSection: BlogPost[] = [
     readTime: "3 min",
     tags: ["Publicidad", "Redes Sociales", "Marketing Digital"],
   },
+  {
+    id: 5,
+    title: "Cómo crear contenido que genere ventas en redes sociales",
+    slug: "como-crear-contenido-que-genere-ventas-en-redes-sociales",
+    colorTitle: "#e57373",
+    description:
+      'Aprende a crear contenido que conecta, convence y vende en redes sociales. Descubre estrategias prácticas para atraer clientes y mejorar tus resultados digitales.',
+    content: `<div style="font-size: 24px; line-height: 1.2;">
+<p><strong>Cómo crear contenido que genere ventas en redes sociales</strong></p>
+<br />
+<p><img src="https://static.wixstatic.com/media/0126c4_1044f095895141bb9392ca6f8d405425~mv2.jpg" alt="Cómo crear contenido que genere ventas en redes sociales" style="max-width: 100%; height: auto;" /></p>
+<br />
+<p><span style="font-weight: 400;">Vender en redes sociales no es cuestión de suerte, es estrategia, claridad en el mensaje y una comprensión profunda de lo que tu audiencia necesita. En un entorno donde miles de publicaciones compiten por atención, crear contenido que realmente convierta es el mayor reto… y también la mayor oportunidad. Aquí te explico cómo lograrlo.</span></p>
+<br />
+<h2><strong>1. Conoce a tu audiencia y su intención de búsqueda</strong></h2>
+<br />
+<p><span style="font-weight: 400;">Para crear contenido que venda, necesitas más que datos básicos de edad o ubicación. Debes entender </span><strong>qué busca tu audiencia</strong><span style="font-weight: 400;">, </span><strong>cómo lo busca</strong><span style="font-weight: 400;"> y </span><strong>qué problema intenta resolver</strong><span style="font-weight: 400;">. En redes sociales, esto significa analizar:</span></p>
+<br />
+<ul style="list-style-type: disc; padding-left: 20px;">
+<li style="font-weight: 400;" aria-level="1"><span style="font-weight: 400;">Comentarios y preguntas frecuentes.</span></li>
+<li style="font-weight: 400;" aria-level="1"><span style="font-weight: 400;">Contenido que más guardan o comparten.</span></li>
+<li style="font-weight: 400;" aria-level="1"><span style="font-weight: 400;">Palabras clave relacionadas con tu sector que se buscan en Google y también dentro de la plataforma.</span></li>
+</ul>
+<br />
+<p><span style="font-weight: 400;">Cuando comprendes su intención —informativa, comparativa o transaccional— puedes crear publicaciones más relevantes. Por ejemplo, si tus usuarios buscan "cómo elegir un buen secador de cabello" o "cuánto cuesta las uñas acrílicas", tu contenido debe responder esas dudas de forma clara y directa. Mientras más útil seas, más confianza generas… y la confianza es la moneda principal en redes sociales.</span></p>
+<br />
+<h2><strong>2. Crea contenido emocional, práctico y orientado a la acción</strong></h2>
+<br />
+<p><span style="font-weight: 400;">Las publicaciones que venden mezclan tres elementos: </span><strong>emoción</strong><span style="font-weight: 400;">, </span><strong>valor práctico</strong><span style="font-weight: 400;"> y </span><strong>acción clara</strong><span style="font-weight: 400;">.</span></p>
+<br />
+<p><strong>Emoción:</strong><br /><span style="font-weight: 400;"> El usuario debe sentir algo: alivio, curiosidad, inspiración o urgencia. Historias cortas, comparaciones simples o situaciones del día a día conectan mejor con la audiencia que un texto frío y corporativo.</span></p>
+<br />
+<p><strong>Valor práctico:</strong><br /><span style="font-weight: 400;"> Ofrece tips concretos, soluciones rápidas, listas, errores comunes y buenas prácticas. El contenido que ayuda sin pedir nada genera reciprocidad: las personas comienzan a verte como autoridad y se inclinan a comprarte.</span></p>
+<br />
+<p><strong>Acción clara (CTA):</strong><br /><span style="font-weight: 400;"> No basta con ser útil. Debes guiar la acción:</span></p>
+<br />
+<ul style="list-style-type: disc; padding-left: 20px;">
+<li style="font-weight: 400;" aria-level="1"><span style="font-weight: 400;">"Escríbenos para cotizar."</span></li>
+<li style="font-weight: 400;" aria-level="1"><span style="font-weight: 400;">"Descarga la guía gratuita."</span></li>
+<li style="font-weight: 400;" aria-level="1"><span style="font-weight: 400;">"Agenda tu diagnóstico."</span></li>
+</ul>
+<br />
+<p><span style="font-weight: 400;">Los llamados a la acción deben ser directos, pero sin sonar agresivos. La clave está en usar un lenguaje cercano y orientado al beneficio: "Si quieres resultados reales, hablemos."</span></p>
+<br />
+<h2><strong>3. Muestra prueba social y beneficios reales, no características</strong></h2>
+<br />
+<p><span style="font-weight: 400;">Uno de los errores más comunes es hablar solo del producto o servicio desde lo técnico. La gente no compra características… compra beneficios.</span></p>
+<br />
+<p><span style="font-weight: 400;">En lugar de decir: "Ofrecemos celulares con 50GB de memoria", puedes decir:</span><br /><span style="font-weight: 400;"> "Disfruta de miles de fotos y muchísimas canciones".</span></p>
+<br />
+<p><span style="font-weight: 400;">El contenido que vende se enfoca en </span><strong>transformación</strong><span style="font-weight: 400;">, no en funcionalidades.</span></p>
+<br />
+<p><span style="font-weight: 400;">Además, mostrar </span><strong>prueba social</strong><span style="font-weight: 400;"> es clave para generar ventas:</span></p>
+<br />
+<ul style="list-style-type: disc; padding-left: 20px;">
+<li style="font-weight: 400;" aria-level="1"><span style="font-weight: 400;">Testimonios reales.</span></li>
+<li style="font-weight: 400;" aria-level="1"><span style="font-weight: 400;">Casos de éxito.</span></li>
+<li style="font-weight: 400;" aria-level="1"><span style="font-weight: 400;">Capturas de mensajes de clientes satisfechos.</span></li>
+<li style="font-weight: 400;" aria-level="1"><span style="font-weight: 400;">Antes y después (si aplica a tu sector).</span></li>
+<li style="font-weight: 400;" aria-level="1"><span style="font-weight: 400;">Métricas reales obtenidas (crecimiento, alcance, leads generados).</span></li>
+</ul>
+<br />
+<p><span style="font-weight: 400;">La validación de otros reduce el miedo a comprar y acelera la decisión. Eso sí, evita exageraciones: la honestidad vende más que las promesas irreales.</span></p>
+<br />
+<h1><strong>Conclusión</strong></h1>
+<br />
+<p><img src="https://static.wixstatic.com/media/0126c4_4f01ec8a5f7d42bd905ac1636bc5742c~mv2.jpg" alt="Crear contenido que genere ventas en redes sociales" style="max-width: 100%; height: auto;" /></p>
+<br />
+<p><span style="font-weight: 400;">Crear contenido que genere ventas en redes sociales no es improvisarlo todo en el momento: es una estrategia basada en entender a tu audiencia, aportar valor real, comunicar beneficios y usar pruebas que respalden tu experiencia. Cuando combinas estos elementos, tus publicaciones dejan de ser "contenido por publicar" y se convierten en un sistema que atrae, convence y convierte.</span></p>
+<br />
+<p><span style="font-weight: 400;">Si aplicas estas tácticas de forma constante, verás cómo tus redes no solo crecen… también venden.</span></p>
+<br />
+<p><span style="font-weight: 400;">Si quieres transformar tu contenido y empezar a generar resultados reales, puedo ayudarte. Como community manager, diseño estrategias que conectan, posicionan y convierten. </span><a title="Escríbeme" href="http://wa.me/573018647226" target="_blank" rel="noopener noreferrer" style="color: #0066cc; text-decoration: underline;"><strong>Escríbeme</strong></a><strong> </strong><span style="font-weight: 400;">y construyamos juntos una presencia digital que sí funciona.</span></p>
+</div>`,
+    image:
+      "https://static.wixstatic.com/media/0126c4_1044f095895141bb9392ca6f8d405425~mv2.jpg",
+    author: "Angie Galván R",
+    publishDate: "2025-11-21",
+    readTime: "3 min",
+    tags: ["Parrilla de contenidos", "Gestión de redes sociales"],
+  },
 ];
 
 // Function to get blog by slug
