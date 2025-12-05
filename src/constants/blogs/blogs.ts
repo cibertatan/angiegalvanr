@@ -337,12 +337,132 @@ export const BlogsSection: BlogPost[] = [
 <br />
 <p><span style="font-weight: 400;">Si aplicas estas tácticas de forma constante, verás cómo tus redes no solo crecen… también venden.</span></p>
 <br />
-<p><span style="font-weight: 400;">Si quieres transformar tu contenido y empezar a generar resultados reales, puedo ayudarte. Como community manager, diseño estrategias que conectan, posicionan y convierten. </span><a title="Escríbeme" href="http://wa.me/573018647226" target="_blank" rel="noopener noreferrer" style="color: #0066cc; text-decoration: underline;"><strong>Escríbeme</strong></a><strong> </strong><span style="font-weight: 400;">y construyamos juntos una presencia digital que sí funciona.</span></p>
+<p><span style="font-weight: 400;">Si quieres transformar tu contenido y empezar a generar resultados reales, puedo ayudarte. Como community manager, diseño estrategias que conectan, posicionan y convierten. </span><a title="Escríbeme" href="https://api.whatsapp.com/send?phone=573138283662&text=%C2%A1Hola!%20Me%20interesa%20conocer%20m%C3%A1s%20sobre%20tus%20servicios%20de%20marketing%20digital." target="_blank" rel="noopener noreferrer" style="color: #0066cc; text-decoration: underline;"><strong>Escríbeme</strong></a><strong> </strong><span style="font-weight: 400;">y construyamos juntos una presencia digital que sí funciona.</span></p>
 </div>`,
     image:
       "https://static.wixstatic.com/media/0126c4_1044f095895141bb9392ca6f8d405425~mv2.jpg",
     author: "Angie Galván R",
     publishDate: "28-11-2025",
+    readTime: "3 min",
+    tags: ["Parrilla de contenidos", "Gestión de redes sociales"],
+  },{
+    id: 6,
+    title: "Cómo manejar las redes sociales de un negocio pequeño",
+    slug: "como-manejar-las-redes-sociales-de-un-negocio-pequeno",
+    colorTitle: "#e57373",
+    description:
+      'Aprende cómo manejar las redes sociales de un negocio pequeño con pasos simples y efectivos. Consejos de marketing para pymes y estrategias para empezar redes sociales.',
+    content: `<div style="font-size: 24px; line-height: 1.2;">
+<p><span style="font-weight: 400;">Si tienes un negocio pequeño, seguramente ya sabes que las redes sociales pueden ser un gran aliado para atraer clientes, mostrar tus productos y construir confianza. Sin embargo, al comenzar, es normal sentirte abrumado: ¿qué publicar?, ¿cómo organizarte?, ¿qué funciona realmente? En este blog aprenderás </span><strong>cómo manejar las redes sociales de un negocio pequeño</strong><span style="font-weight: 400;"> paso a paso, con consejos prácticos que puedes aplicar desde hoy.</span></p>
+<br />
+<h2><strong>1. Define el objetivo antes de publicar</strong></h2>
+<br />
+<p><span style="font-weight: 400;">Las redes sociales funcionan mejor cuando existe una intención clara. Antes de abrir una cuenta, piensa qué quieres lograr:</span></p>
+<br />
+<ul style="list-style-type: disc; padding-left: 20px;">
+<li style="font-weight: 400;" aria-level="1"><span style="font-weight: 400;">¿Atraer clientes nuevos?</span></li>
+<li style="font-weight: 400;" aria-level="1"><span style="font-weight: 400;">¿Mostrar tu catálogo?</span></li>
+<li style="font-weight: 400;" aria-level="1"><span style="font-weight: 400;">¿Aumentar la confianza y reputación?</span></li>
+<li style="font-weight: 400;" aria-level="1"><span style="font-weight: 400;">¿Responder dudas y mensajes?</span></li>
+</ul>
+<br />
+<p><span style="font-weight: 400;">Esta claridad te ayudará a tomar mejores decisiones y evitar perder tiempo en publicaciones que no aportan nada. Tener un objetivo también es fundamental para que el </span><strong>marketing para pymes</strong><span style="font-weight: 400;"> sea estratégico y no improvisado.</span></p>
+<br />
+<h2><strong>2. Elige las plataformas correctas</strong></h2>
+<br />
+<p><span style="font-weight: 400;">Uno de los errores más comunes al empezar redes sociales es intentar estar en todas partes. Para un negocio pequeño, lo ideal es concentrarse en una o dos plataformas donde realmente esté tu cliente.</span></p>
+<br />
+<ul style="list-style-type: disc; padding-left: 20px;">
+<li style="font-weight: 400;" aria-level="1"><strong>Instagram:</strong><span style="font-weight: 400;"> perfecto para productos visuales, moda, belleza, comida, decoración, emprendimientos locales.</span></li>
+<li style="font-weight: 400;" aria-level="1"><strong>Facebook:</strong><span style="font-weight: 400;"> útil para negocios pequeños de barrio, ventas locales, servicios y comunidad.</span></li>
+<li style="font-weight: 400;" aria-level="1"><strong>TikTok:</strong><span style="font-weight: 400;"> ideal si tu público es joven o si vendes productos que se prestan para demostraciones rápidas y contenido creativo.</span></li>
+<li style="font-weight: 400;" aria-level="1"><strong>WhatsApp Business:</strong><span style="font-weight: 400;"> esencial para cerrar ventas, responder preguntas y gestionar pedidos.</span></li>
+</ul>
+<br />
+<p><span style="font-weight: 400;">Recuerda que menos es más: es mejor una red bien manejada que tres abandonadas.</span></p>
+<br />
+<h2><strong>3. Construye tu identidad visual desde el inicio</strong></h2>
+<br />
+<p><span style="font-weight: 400;">Cuando alguien visita tus redes, decide en segundos si te sigue o no. Por eso, tener una identidad visual clara y coherente puede marcar la diferencia. No necesitas un diseñador; puedes usar herramientas como Canva para crear plantillas con:</span></p>
+<br />
+<ul style="list-style-type: disc; padding-left: 20px;">
+<li style="font-weight: 400;" aria-level="1"><span style="font-weight: 400;">Colores consistentes</span></li>
+<li style="font-weight: 400;" aria-level="1"><span style="font-weight: 400;">Tipografías fáciles de leer</span></li>
+<li style="font-weight: 400;" aria-level="1"><span style="font-weight: 400;">Formatos similares para tus publicaciones</span></li>
+</ul>
+<br />
+<p><span style="font-weight: 400;">Esto hará que tu negocio luzca profesional aun siendo pequeño.</span></p>
+<br />
+<h2><strong>4. Crea contenido útil, no solo promocional</strong></h2>
+<br />
+<p><span style="font-weight: 400;">Un error frecuente en negocios pequeños es publicar únicamente precios, promociones y productos. Aunque es importante mostrar lo que vendes, eso no puede ser el 100% de tu contenido.</span></p>
+<br />
+<p><span style="font-weight: 400;">Lo que realmente genera confianza es combinar distintos tipos de publicaciones:</span></p>
+<br />
+<ul style="list-style-type: disc; padding-left: 20px;">
+<li style="font-weight: 400;" aria-level="1"><strong>Educativas:</strong><span style="font-weight: 400;"> tips, consejos, tutoriales</span></li>
+<li style="font-weight: 400;" aria-level="1"><strong>Entretenimiento:</strong><span style="font-weight: 400;"> datos curiosos, tendencias</span></li>
+<li style="font-weight: 400;" aria-level="1"><strong>Prueba social:</strong><span style="font-weight: 400;"> testimonios, fotos de clientes</span></li>
+<li style="font-weight: 400;" aria-level="1"><strong>Promocionales:</strong><span style="font-weight: 400;"> ofertas, nuevos productos</span></li>
+</ul>
+<br />
+<p><span style="font-weight: 400;">Esta mezcla funciona muy bien para quienes buscan </span><strong>redes para negocios pequeños</strong><span style="font-weight: 400;"> que logren atraer sin depender solo de descuentos.</span></p>
+<br />
+<h2><strong>5. Organiza tu contenido con un calendario</strong></h2>
+<br />
+<p><span style="font-weight: 400;">Publicar "cuando te acuerdes" no funciona. Lo mejor es crear un calendario sencillo para planear tus publicaciones semanales. Puedes comenzar con algo tan básico como:</span></p>
+<br />
+<ul style="list-style-type: disc; padding-left: 20px;">
+<li style="font-weight: 400;" aria-level="1"><span style="font-weight: 400;">2 publicaciones a la semana</span></li>
+<li style="font-weight: 400;" aria-level="1"><span style="font-weight: 400;">3–5 historias diarias</span></li>
+<li style="font-weight: 400;" aria-level="1"><span style="font-weight: 400;">1 video corto (Reel o TikTok)</span></li>
+</ul>
+<br />
+<p><span style="font-weight: 400;">Organizarte te permitirá mostrar constancia, que es una de las claves en el </span><strong>marketing para pymes</strong><span style="font-weight: 400;">.</span></p>
+<br />
+<h2><strong>6. Interactúa todos los días, aunque sea 15 minutos</strong></h2>
+<br />
+<p><span style="font-weight: 400;">Responder mensajes, comentarios y reacciones es fundamental. No tienes que estar conectado todo el día; basta con dedicar unos minutos diarios para:</span></p>
+<br />
+<ul style="list-style-type: disc; padding-left: 20px;">
+<li style="font-weight: 400;" aria-level="1"><span style="font-weight: 400;">Contestar preguntas</span></li>
+<li style="font-weight: 400;" aria-level="1"><span style="font-weight: 400;">Agradecer comentarios</span></li>
+<li style="font-weight: 400;" aria-level="1"><span style="font-weight: 400;">Revisar mensajes pendientes</span></li>
+<li style="font-weight: 400;" aria-level="1"><span style="font-weight: 400;">Saludar a nuevos seguidores</span></li>
+</ul>
+<br />
+<p><span style="font-weight: 400;">Las redes sociales valoran la interacción y muestran más tu contenido cuando eres activo.</span></p>
+<br />
+<h2><strong>7. Usa contenido en video para destacar</strong></h2>
+<br />
+<p><span style="font-weight: 400;">Los videos cortos dominan las redes. No tienes que hacer producciones complejas: graba tu producto, muestra cómo se usa, comparte el detrás de cámaras o responde preguntas frecuentes. Esto te ayudará a aumentar el alcance y ganar seguidores sin invertir en pauta.</span></p>
+<br />
+<h2><strong>8. Analiza tus resultados y ajusta</strong></h2>
+<br />
+<p><span style="font-weight: 400;">Las redes sociales siempre muestran qué publicaciones funcionan mejor. Revisa cada semana tus estadísticas:</span></p>
+<br />
+<ul style="list-style-type: disc; padding-left: 20px;">
+<li style="font-weight: 400;" aria-level="1"><span style="font-weight: 400;">¿Qué contenido obtuvo mayor alcance?</span></li>
+<li style="font-weight: 400;" aria-level="1"><span style="font-weight: 400;">¿Qué publicaciones generaron más comentarios?</span></li>
+<li style="font-weight: 400;" aria-level="1"><span style="font-weight: 400;">¿Qué días y horarios funcionaron mejor?</span></li>
+</ul>
+<br />
+<p><span style="font-weight: 400;">Con esa información podrás ajustar tu estrategia y mejorar poco a poco.</span></p>
+<br />
+<h2><strong>Conclusión</strong></h2>
+<br />
+<p><img src="https://static.wixstatic.com/media/0126c4_5ea8d723e8b14cb0829501211efd82d5~mv2.jpg" alt="como-manejar-las-redes-sociales-de-un-negocio-pequeno" style="max-width: 100%; height: auto;" /></p>
+<br />
+<p><span style="font-weight: 400;">Manejar las redes sociales de un negocio pequeño no tiene por qué ser complicado, pero sí requiere estrategia, constancia y tiempo. Si sientes que tu marca necesita apoyo para crecer, organizar su contenido o mejorar su presencia digital, puedo ayudarte.</span></p>
+<br />
+<p><span style="font-weight: 400;">Como </span><strong>community manager</strong><span style="font-weight: 400;">, me encargo de crear contenido profesional, gestionar tus plataformas, conectar con tu audiencia y darle a tu negocio la presencia que merece.</span></p>
+<br />
+<p><span style="font-weight: 400;">Si quieres que tus redes trabajen a tu favor mientras tú te enfocas en tu negocio, estaré encantada de apoyarte. </span><a title="¡Contáctame aquí!" href="https://api.whatsapp.com/send?phone=573138283662&text=%C2%A1Hola!%20Me%20interesa%20conocer%20m%C3%A1s%20sobre%20tus%20servicios%20de%20marketing%20digital." target="_blank" rel="noopener noreferrer" style="color: #0066cc; text-decoration: underline;"><strong>¡Contáctame aquí!</strong></a></p>
+</div>`,
+    image:
+      "https://static.wixstatic.com/media/0126c4_e709d18fc8d8470aa0f771631f05ccff~mv2.jpg",
+    author: "Angie Galván R",
+    publishDate: "05-12-2025",
     readTime: "3 min",
     tags: ["Parrilla de contenidos", "Gestión de redes sociales"],
   },
