@@ -471,7 +471,7 @@ export const BlogsSection: BlogPost[] = [
     slug: "vale-la-pena-contratar-gestion-de-redes-sociales-en-2026",
     colorTitle: "#e57373",
     description:
-        'Contratar gestión de redes sociales en 2026 puede marcar la diferencia entre crecer o desaparecer en digital. Analizamos costos, beneficios y cuándo sí vale la pena.',
+        'Contratar gestión de redes sociales en 2026 puede marcar la diferencia entre crecer o desaparecer en digital. Analizamos beneficios y cuándo sí vale la pena.',
     content: `<div style="font-size: 24px; line-height: 1.2;">
 <p><span style="font-weight: 400;">La pregunta sobre si vale la pena contratar gestión de redes sociales en 2026 es cada vez más común entre emprendedores, marcas personales y empresas. No es casualidad. El ecosistema digital ha cambiado de forma acelerada: más plataformas, más formatos, más competencia y, sobre todo, menos margen de error. Hoy, improvisar en redes sociales no solo limita el crecimiento, también puede afectar la reputación y las ventas.</span></p>
 <br />
