@@ -553,6 +553,67 @@ export const BlogsSection: BlogPost[] = [
     publishDate: "09-01-2026",
     readTime: "3 min",
     tags: ["Gestión de redes sociales"],
+  },{
+    id: 8,
+    title: "Qué es el email marketing y cómo funciona para negocios pequeños",
+    slug: "que-es-el-email-marketing-y-como-funciona-para-negocios-pequenos",
+    colorTitle: "#e57373",
+    description:
+        'El email marketing es una estrategia digital efectiva para negocios pequeños. Aprende qué es, cómo funciona y cómo usarlo para vender más.',
+    content: `<div style="font-size: 24px; line-height: 1.2;">
+<p><span style="font-weight: 400;">El email marketing es una de las estrategias digitales más efectivas y rentables para los negocios pequeños. A pesar del crecimiento de las redes sociales y otras plataformas, el correo electrónico sigue siendo un canal directo, personal y controlado que permite construir relaciones sólidas con los clientes y aumentar las ventas de forma constante.</span></p>
+<br />
+<p><span style="font-weight: 400;">En este artículo te explico qué es el email marketing, cómo funciona y por qué puede marcar una diferencia real en </span><a href="https://www.angiegalvanr.lat/blog/como-manejar-las-redes-sociales-de-un-negocio-pequeno" target="_blank" rel="noopener noreferrer" style="color: #0066cc; text-decoration: underline;"><span style="font-weight: 400;">negocios pequeños</span></a><span style="font-weight: 400;">, incluso con presupuestos limitados.</span></p>
+<br />
+<h2><strong>¿QUÉ ES EL EMAIL MARKETING?</strong></h2>
+<br />
+<p><span style="font-weight: 400;">El email marketing es una estrategia de comunicación digital que consiste en enviar correos electrónicos a una base de datos de contactos con un objetivo específico: informar, educar, fidelizar o vender. Estos correos pueden incluir promociones, contenido de valor, novedades del negocio, recordatorios o mensajes personalizados según el comportamiento del usuario.</span></p>
+<br />
+<p><span style="font-weight: 400;">A diferencia de otros canales, el email marketing permite una comunicación directa con personas que ya mostraron interés en tu marca, producto o servicio, lo que aumenta las probabilidades de conversión.</span></p>
+<br />
+<h2><strong>¿CÓMO FUNCIONA EL EMAIL MARKETING?</strong></h2>
+<br />
+<p><span style="font-weight: 400;">El funcionamiento del email marketing se basa en cuatro elementos clave:</span></p>
+<br />
+<ul style="list-style-type: disc; padding-left: 20px;">
+<li style="font-weight: 400;" aria-level="1"><strong>Captación de contactos</strong><br /><span style="font-weight: 400;"> El primer paso es crear una base de datos de personas que acepten recibir tus correos. Esto puede lograrse mediante formularios en tu sitio web, suscripciones a un blog, descargas gratuitas o registros a promociones.</span></li>
+<li style="font-weight: 400;" aria-level="1"><strong>Segmentación de la audiencia</strong><br /><span style="font-weight: 400;"> No todos los contactos tienen las mismas necesidades. La segmentación permite agruparlos según intereses, historial de compra, ubicación o comportamiento, lo que mejora la relevancia de los mensajes.</span></li>
+<li style="font-weight: 400;" aria-level="1"><strong>Creación de contenido estratégico</strong><br /><span style="font-weight: 400;"> Los correos deben aportar valor. No se trata solo de vender, sino de educar, informar y mantener el interés del lector. Un buen asunto, un mensaje claro y un llamado a la acción son fundamentales.</span></li>
+<li style="font-weight: 400;" aria-level="1"><strong>Automatización y análisis</strong><br /><span style="font-weight: 400;"> Con herramientas de email marketing es posible automatizar envíos y medir resultados como tasas de apertura, clics y conversiones. Estos datos permiten optimizar la estrategia continuamente.</span></li>
+</ul>
+<br />
+<h2><strong>BENEFICIOS DEL EMAIL MARKETING PARA NEGOCIOS PEQUEÑOS</strong></h2>
+<br />
+<p><span style="font-weight: 400;">El email marketing ofrece ventajas especialmente importantes para negocios pequeños:</span></p>
+<br />
+<ul style="list-style-type: disc; padding-left: 20px;">
+<li style="font-weight: 400;" aria-level="1"><strong>Bajo costo</strong><span style="font-weight: 400;"> en comparación con otros canales publicitarios.</span></li>
+<li style="font-weight: 400;" aria-level="1"><strong>Alta rentabilidad</strong><span style="font-weight: 400;">, ya que se dirige a personas interesadas.</span></li>
+<li style="font-weight: 400;" aria-level="1"><strong>Control total</strong><span style="font-weight: 400;"> sobre la base de datos, sin depender de algoritmos.</span></li>
+<li style="font-weight: 400;" aria-level="1"><strong>Personalización</strong><span style="font-weight: 400;">, lo que mejora la relación con el cliente.</span></li>
+<li style="font-weight: 400;" aria-level="1"><strong>Medición precisa</strong><span style="font-weight: 400;"> de resultados para tomar mejores decisiones.</span></li>
+</ul>
+<br />
+<p><span style="font-weight: 400;">Además, permite mantener una comunicación constante con clientes actuales y potenciales, fortaleciendo la confianza en la marca.</span></p>
+<br />
+<h2><strong>CÓMO PUEDE USAR EL EMAIL MARKETING UN NEGOCIO PEQUEÑO</strong></h2>
+<br />
+<p><span style="font-weight: 400;">Un negocio pequeño puede usar el email marketing para enviar promociones exclusivas, anunciar nuevos productos o servicios, compartir contenido educativo, recuperar carritos abandonados o mantener el contacto con clientes inactivos. Todo depende del objetivo y de una estrategia bien definida.</span></p>
+<br />
+<h2><strong>CONCLUSIÓN</strong></h2>
+<br />
+<img src="https://static.wixstatic.com/media/0126c4_3c2a3ea23b274295946531f9d5788b55~mv2.jpg" alt="El email marketing no es una estrategia del pasado" style="max-width: 100%; height: auto;" />
+<br />
+<p><span style="font-weight: 400;">El email marketing no es una estrategia del pasado; por el contrario, sigue siendo una de las herramientas más poderosas para los negocios pequeños que buscan crecer de forma sostenible. Cuando se utiliza correctamente, permite vender más, fidelizar clientes y construir una marca sólida sin grandes inversiones.</span></p>
+<br />
+<p><span style="font-weight: 400;">Si quieres implementar el email marketing de manera estratégica, con contenido optimizado y orientado a resultados, puedo ayudarte a crear, gestionar y optimizar tus campañas de email marketing, alineándolas con los objetivos de tu negocio. </span><a href="https://api.whatsapp.com/send?phone=573138283662&text=%C2%A1Hola!%20Me%20interesa%20conocer%20m%C3%A1s%20sobre%20tus%20servicios%20de%20marketing%20digital." target="_blank" rel="noopener noreferrer" style="color: #0066cc; text-decoration: underline;"><strong>¡Contáctame aquí!</strong></a> y trabajemos juntos en una estrategia que realmente genere impacto.</p>
+</div>`,
+    image:
+        "https://static.wixstatic.com/media/0126c4_0f205a8b6926461cae4b53a176d30463~mv2.jpg",
+    author: "Angie Galván R",
+    publishDate: "16-01-2026",
+      readTime: "3 min",
+      tags: ["Email marketing"],
   }
 ];
 
