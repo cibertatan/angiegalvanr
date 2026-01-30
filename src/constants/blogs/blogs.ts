@@ -606,7 +606,7 @@ export const BlogsSection: BlogPost[] = [
 <br />
 <p><span style="font-weight: 400;">El email marketing no es una estrategia del pasado; por el contrario, sigue siendo una de las herramientas más poderosas para los negocios pequeños que buscan crecer de forma sostenible. Cuando se utiliza correctamente, permite vender más, fidelizar clientes y construir una marca sólida sin grandes inversiones.</span></p>
 <br />
-<p><span style="font-weight: 400;">Si quieres implementar el email marketing de manera estratégica, con contenido optimizado y orientado a resultados, puedo ayudarte a crear, gestionar y optimizar tus campañas de email marketing, alineándolas con los objetivos de tu negocio. </span><a href="https://api.whatsapp.com/send?phone=573138283662&text=%C2%A1Hola!%20Me%20interesa%20conocer%20m%C3%A1s%20sobre%20tus%20servicios%20de%20marketing%20digital." target="_blank" rel="noopener noreferrer" style="color: #0066cc; text-decoration: underline;"><strong>¡Contáctame aquí!</strong></a> y trabajemos juntos en una estrategia que realmente genere impacto.</p>
+<p><span style="font-weight: 400;">Si quieres implementar el email marketing de manera estratégica, con contenido optimizado y orientado a resultados, puedo ayudarte a crear, gestionar y optimizar tus campañas de email marketing, alineándolas con los objetivos de tu negocio. </span><a href="https://api.whatsapp.com/send?phone=573138283662&text=%C2%A1Hola!%2520Me%2520interesa%2520conocer%2520m%C3%A1s%2520sobre%2520tus%2520servicios%2520de%2520marketing%2520digital" target="_blank" rel="noopener noreferrer" style="color: #0066cc; text-decoration: underline;"><strong>¡Contáctame aquí!</strong></a> y trabajemos juntos en una estrategia que realmente genere impacto.</p>
 </div>`,
     image:
         "https://static.wixstatic.com/media/0126c4_0f205a8b6926461cae4b53a176d30463~mv2.jpg",
@@ -614,6 +614,83 @@ export const BlogsSection: BlogPost[] = [
     publishDate: "16-01-2026",
       readTime: "3 min",
       tags: ["Email marketing"],
+  },
+  {
+    id: 9,
+    title: "Cómo hacer un blog optimizado para SEO y posicionar en Google",
+    slug: "como-hacer-un-blog-optimizado-para-seo-y-posicionar-en-google",
+    colorTitle: "#e57373",
+    description:
+      'Aprende cómo hacer un blog para SEO paso a paso. Descubre cómo elegir palabras clave, estructurar contenidos y optimizar tus artículos para posicionar en Google y atraer más visitas',
+    content: `<div style="font-size: 24px; line-height: 1.2;">
+<p>Crear un blog optimizado para SEO es una de las estrategias más efectivas para aumentar la visibilidad de una marca, atraer tráfico orgánico y generar confianza en los usuarios. Sin embargo, no basta con escribir bien: es necesario entender cómo funciona el posicionamiento en buscadores y cómo las personas buscan información en Google. En este artículo te explico <strong>cómo hacer un blog para SEO</strong>, desde la investigación de palabras clave hasta la estructura correcta del contenido.</p>
+<br />
+<p><strong>1. INVESTIGA CÓMO BUSCAN LAS PERSONAS EN GOOGLE</strong></p>
+<br />
+<p>El primer paso para crear un blog para SEO es identificar las <strong>palabras clave</strong> adecuadas. Estas deben coincidir con la forma real en la que los usuarios hacen búsquedas. Algunas de las más comunes relacionadas con este tema son:</p>
+<br />
+<ul style="list-style-type: disc; padding-left: 20px;">
+<li>Cómo hacer un blog para SEO</li>
+<li>Qué es un blog SEO</li>
+<li>Cómo posicionar un blog en Google</li>
+<li>Estructura de un blog SEO</li>
+<li>Consejos de SEO para blogs</li>
+</ul>
+<br />
+<p>Utiliza herramientas como Google Keyword Planner, Ubersuggest o incluso las sugerencias automáticas de Google para encontrar términos con buen volumen de búsqueda y una competencia manejable.</p>
+<br />
+<p><strong>2. DEFINE UNA PALABRA CLAVE PRINCIPAL Y SECUNDARIAS</strong></p>
+<br />
+<p>Cada blog debe tener <strong>una palabra clave principal</strong>, que será el eje del contenido, y varias palabras clave secundarias relacionadas. La palabra clave principal debe aparecer de forma natural en:</p>
+<br />
+<ul style="list-style-type: disc; padding-left: 20px;">
+<li>El título del blog</li>
+<li>El primer párrafo</li>
+<li>Algunos subtítulos</li>
+<li>La conclusión</li>
+</ul>
+<br />
+<p>Las palabras clave secundarias ayudan a ampliar el alcance semántico del contenido y mejoran el posicionamiento sin caer en la sobreoptimización.</p>
+<br />
+<p><strong>3. CREA UNA ESTRUCTURA CLARA Y OPTIMIZADA</strong></p>
+<br />
+<p>Google valora los contenidos fáciles de leer. Por eso, la <strong>estructura de un blog SEO</strong> es fundamental. Si quieres profundizar en por qué tener un blog fortalece tu presencia digital, puedes leer este artículo: <a href="/blog/por-que-tener-un-blog-fortalece-tu-presencia-digital" target="_blank" rel="noopener noreferrer" style="color: #0066cc; text-decoration: underline;">por qué tener un blog fortalece tu presencia digital</a>. Usa subtítulos jerárquicos (H2, H3), párrafos cortos y listas cuando sea necesario. Una buena estructura no solo mejora el SEO, también aumenta el tiempo de permanencia del usuario en la página.</p>
+<br />
+<p>Además, incluye una introducción clara que explique de qué trata el artículo y una conclusión que cierre la idea principal.</p>
+<br />
+<p><strong>4. REDACTA CONTENIDO DE VALOR, NO SOLO PARA BUSCADORES</strong></p>
+<br />
+<p>Un error común es escribir pensando solo en Google. El SEO moderno prioriza la <strong>intención de búsqueda</strong>, es decir, resolver realmente la duda del usuario. Un buen blog SEO debe ser informativo, claro y útil.</p>
+<br />
+<p>Evita copiar contenido, rellenos innecesarios o repetir palabras clave sin sentido. En su lugar, explica, ejemplifica y aporta conocimiento real.</p>
+<br />
+<p><strong>5. OPTIMIZA ELEMENTOS CLAVE DEL BLOG</strong></p>
+<br />
+<p>Para mejorar el posicionamiento de tu blog en Google, no olvides estos elementos esenciales:</p>
+<br />
+<ul style="list-style-type: disc; padding-left: 20px;">
+<li><strong>Meta descripción atractiva</strong> (máximo 160 caracteres)</li>
+<li>URLs cortas y claras</li>
+<li>Uso correcto de enlaces internos</li>
+<li>Imágenes optimizadas con texto alternativo</li>
+</ul>
+<br />
+<p>Estos detalles marcan la diferencia entre un blog visible y uno que pasa desapercibido.</p>
+<br />
+<p><strong>CONCLUSIÓN</strong></p>
+<br />
+<img src="https://static.wixstatic.com/media/0126c4_a752178362f8453a8b0c3001add3b083~mv2.jpg" alt="Blog optimizado para SEO" style="max-width: 100%; height: auto;" />
+<br />
+<p>Saber <strong>cómo hacer un blog optimizado para SEO</strong> es una habilidad clave para cualquier marca o emprendimiento que quiera crecer de forma orgánica en internet. Desde la elección de palabras clave hasta la estructura y la redacción estratégica, cada paso influye directamente en el posicionamiento y en los resultados.</p>
+<br />
+<p>Si quieres que tus blogs no solo estén bien escritos, sino que realmente <strong>posicionen en Google y conecten con tu audiencia</strong>, como community manager puedo ayudarte a crear contenidos estratégicos, alineados con SEO y pensados para generar visibilidad, tráfico y confianza para tu marca. <a href="https://api.whatsapp.com/send?phone=573138283662&text=%C2%A1Hola!%20Me%20interesa%20conocer%20m%C3%A1s%20sobre%20tus%20servicios%20de%20marketing%20digital." target="_blank" rel="noopener noreferrer" style="color: #0066cc; text-decoration: underline;"><strong>¡Contáctame aquí!</strong></a></p>
+</div>`,
+    image:
+        "https://static.wixstatic.com/media/0126c4_4dbeb6cd6a1e4213a20f2f6f161c8873~mv2.jpg",
+    author: "Angie Galván R",
+    publishDate: "30-01-2026",
+    readTime: "3 min",
+    tags: ["Blogs", "SEO", "Página web"],
   }
 ];
 
