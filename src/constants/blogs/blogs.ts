@@ -654,7 +654,7 @@ export const BlogsSection: BlogPost[] = [
 <br />
 <p><strong>3. Crea una estructura clara y optimizada</strong></p>
 <br />
-<p>Google valora los contenidos fáciles de leer. Por eso, la estructura de un blog SEO <a href="https://www.angiegalvanr.lat/blog/por-que-tener-un-blog-fortalece-tu-presencia-digital" target="_blank" rel="noopener noreferrer" style="color: #0066cc; text-decoration: underline;">https://www.angiegalvanr.lat/blog/por-que-tener-un-blog-fortalece-tu-presencia-digital</a> es fundamental. Usa subtítulos jerárquicos (H2, H3), párrafos cortos y listas cuando sea necesario. Una buena estructura no solo mejora el SEO, también aumenta el tiempo de permanencia del usuario en la página.</p>
+<p>Google valora los contenidos fáciles de leer. Por eso, <a href="https://www.angiegalvanr.lat/blog/por-que-tener-un-blog-fortalece-tu-presencia-digital" target="_blank" rel="noopener noreferrer" style="color: #0066cc; text-decoration: underline;">la estructura de un blog SEO</a> es fundamental. Usa subtítulos jerárquicos (H2, H3), párrafos cortos y listas cuando sea necesario. Una buena estructura no solo mejora el SEO, también aumenta el tiempo de permanencia del usuario en la página.</p>
 <br />
 <p>Además, incluye una introducción clara que explique de qué trata el artículo y una conclusión que cierre la idea principal.</p>
 <br />
