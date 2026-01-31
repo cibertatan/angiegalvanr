@@ -664,7 +664,7 @@ export const BlogsSection: BlogPost[] = [
 <br />
 <p>Evita copiar contenido, rellenos innecesarios o repetir palabras clave sin sentido. En su lugar, explica, ejemplifica y aporta conocimiento real.</p>
 <br />
-<p><strong>5. OPTIMIZA ELEMENTOS CLAVE DEL BLOG</strong></p>
+<p><strong>5. Optimiza elementos clave del blog</strong></p>
 <br />
 <p>Para mejorar el posicionamiento de tu blog en Google, no olvides estos elementos esenciales:</p>
 <br />
