@@ -691,6 +691,95 @@ export const BlogsSection: BlogPost[] = [
     publishDate: "30-01-2026",
     readTime: "3 min",
     tags: ["Blogs", "SEO", "Página web"],
+  },
+  {
+    id: 10,
+    title: "Cómo aprovechar el Carnaval de Barranquilla para hacer marketing",
+    slug: "como-aprovechar-el-carnaval-de-barranquilla-para-hacer-marketing",
+    colorTitle: "#e57373",
+    description:
+      'Aprende cómo aprovechar el Carnaval de Barranquilla con estrategias de marketing digital, contenido creativo, SEO local y promociones efectivas. Guía práctica para aumentar visibilidad, engagement y ventas en fechas festivas.',
+    content: `<div style="font-size: 24px; line-height: 1.2;">
+<p><span style="font-weight: 400;">El Carnaval de Barranquilla es una de las temporadas más importantes del año para la ciudad de Barranquilla y para todo Colombia. No solo mueve turismo, cultura y entretenimiento, también genera un pico enorme de atención en redes sociales, búsquedas en Google y consumo de contenidos digitales. Por eso, estas fechas se convierten en una oportunidad estratégica para cualquier marca que quiera ganar visibilidad y conectar con su audiencia.</span></p>
+<br />
+<p><span style="font-weight: 400;">En esta época muchas personas buscan información como </span><em><span style="font-weight: 400;">fechas del carnaval</span></em><span style="font-weight: 400;">, </span><em><span style="font-weight: 400;">eventos</span></em><span style="font-weight: 400;">, </span><em><span style="font-weight: 400;">planes para carnaval</span></em><span style="font-weight: 400;">, </span><em><span style="font-weight: 400;">qué hacer en Barranquilla</span></em><span style="font-weight: 400;"> y también promociones relacionadas con la temporada. Si tu negocio aparece en esas conversaciones digitales, tienes una ventaja competitiva clara. La clave está en planificar, crear contenido relevante y usar el marketing digital con intención.</span></p>
+<br />
+<h2><strong>1. Empieza con una planificación estratégica</strong></h2>
+<br />
+<p><span style="font-weight: 400;">Antes de publicar por publicar, es fundamental definir una estrategia. Yo siempre recomiendo empezar por tres preguntas básicas:</span></p>
+<br />
+<ul style="list-style-type: disc; padding-left: 20px;">
+<li style="font-weight: 400;" aria-level="1"><span style="font-weight: 400;">¿Qué quiero lograr en esta temporada? (más ventas, más seguidores, más visibilidad de marca).</span></li>
+<li style="font-weight: 400;" aria-level="1"><span style="font-weight: 400;">¿A quién le estoy hablando? (turistas, público local, jóvenes, familias, empresas).</span></li>
+<li style="font-weight: 400;" aria-level="1"><span style="font-weight: 400;">¿En qué canales está mi audiencia? (Instagram, Facebook, TikTok, Google, etc.).</span></li>
+</ul>
+<br />
+<p><span style="font-weight: 400;">Desde el punto de vista de SEO, es importante trabajar palabras clave como: </span><em><span style="font-weight: 400;">Carnaval de Barranquilla</span></em><span style="font-weight: 400;">, </span><em><span style="font-weight: 400;">fechas del carnaval</span></em><span style="font-weight: 400;">, </span><em><span style="font-weight: 400;">eventos de carnaval</span></em><span style="font-weight: 400;">, </span><em><span style="font-weight: 400;">promociones de carnaval</span></em><span style="font-weight: 400;">, </span><em><span style="font-weight: 400;">marketing en fechas festivas</span></em><span style="font-weight: 400;">. Estas búsquedas aumentan en esta temporada, y tu contenido puede posicionarse si lo estructuras bien.</span></p>
+<br />
+<h2><strong>2. Crea contenido alineado con el espíritu del carnaval</strong></h2>
+<br />
+<p><span style="font-weight: 400;">El carnaval es color, alegría y movimiento. Tu contenido debe reflejar eso sin perder la coherencia con tu marca.</span></p>
+<br />
+<p><span style="font-weight: 400;">Algunas ideas prácticas:</span></p>
+<br />
+<ul style="list-style-type: disc; padding-left: 20px;">
+<li style="font-weight: 400;" aria-level="1"><strong>Contenido visual</strong><span style="font-weight: 400;">: fotos y videos con ambientación de carnaval, detalles de tu negocio decorado o versiones temáticas de tus productos o servicios.</span></li>
+<li style="font-weight: 400;" aria-level="1"><strong>Contenido educativo</strong><span style="font-weight: 400;">: artículos o posts tipo "Guía rápida para disfrutar el carnaval", "Cómo organizarte en temporada de carnaval" o "Qué tener en cuenta si visitas Barranquilla en estas fechas". Este tipo de contenido suele posicionar bien en Google porque responde a búsquedas reales.</span></li>
+<li style="font-weight: 400;" aria-level="1"><strong>Contenido participativo</strong><span style="font-weight: 400;">: encuestas, preguntas en historias, dinámicas donde la gente opine o comparta sus planes de carnaval.</span></li>
+</ul>
+<br />
+<p><span style="font-weight: 400;">La clave es combinar entretenimiento con valor práctico. Así no solo llamas la atención, también construyes confianza.</span></p>
+<br />
+<h2><strong>3. Usa el SEO local a tu favor</strong></h2>
+<br />
+<p><span style="font-weight: 400;">En temporada de carnaval, muchas búsquedas son locales: </span><em><span style="font-weight: 400;">qué hacer en Barranquilla</span></em><span style="font-weight: 400;">, </span><em><span style="font-weight: 400;">eventos hoy</span></em><span style="font-weight: 400;">, </span><em><span style="font-weight: 400;">planes de carnaval cerca</span></em><span style="font-weight: 400;">. Para aprovechar esto:</span></p>
+<br />
+<ul style="list-style-type: disc; padding-left: 20px;">
+<li style="font-weight: 400;" aria-level="1"><span style="font-weight: 400;">Incluye el nombre de la ciudad en títulos, textos y descripciones.</span></li>
+<li style="font-weight: 400;" aria-level="1"><span style="font-weight: 400;">Publica contenido con información útil: fechas, recomendaciones, tips y guías.</span></li>
+<li style="font-weight: 400;" aria-level="1"><span style="font-weight: 400;">Optimiza tus perfiles y tu web para que quede claro dónde estás y qué ofreces.</span></li>
+</ul>
+<br />
+<p><span style="font-weight: 400;">Esto ayuda a que tu marca aparezca cuando las personas están activamente buscando información relacionada con el carnaval.</span></p>
+<br />
+<h2><strong>4. Diseña promociones con sentido estratégico</strong></h2>
+<br />
+<p><span style="font-weight: 400;">Las fechas festivas son ideales para lanzar:</span></p>
+<br />
+<ul style="list-style-type: disc; padding-left: 20px;">
+<li style="font-weight: 400;" aria-level="1"><span style="font-weight: 400;">Descuentos por tiempo limitado.</span></li>
+<li style="font-weight: 400;" aria-level="1"><span style="font-weight: 400;">Paquetes especiales con temática de carnaval.</span></li>
+<li style="font-weight: 400;" aria-level="1"><span style="font-weight: 400;">Beneficios extra por compra durante esta temporada.</span></li>
+</ul>
+<br />
+<p><span style="font-weight: 400;">No se trata solo de bajar precios, sino de crear una oferta atractiva, bien comunicada y con un mensaje claro. Un buen llamado a la acción y un sentido de urgencia pueden marcar la diferencia en los resultados.</span></p>
+<br />
+<h2><strong>5. Refuerza la interacción con tu comunidad</strong></h2>
+<br />
+<p><span style="font-weight: 400;">El carnaval es conversación. Aprovecha eso para:</span></p>
+<br />
+<ul style="list-style-type: disc; padding-left: 20px;">
+<li style="font-weight: 400;" aria-level="1"><span style="font-weight: 400;">Responder comentarios y mensajes con rapidez.</span></li>
+<li style="font-weight: 400;" aria-level="1"><span style="font-weight: 400;">Incentivar a que la gente comparta fotos o experiencias relacionadas con la temporada.</span></li>
+<li style="font-weight: 400;" aria-level="1"><span style="font-weight: 400;">Repostear contenido de tus seguidores cuando mencionen tu marca.</span></li>
+</ul>
+<br />
+<p><span style="font-weight: 400;">Mientras más interacción generes, mayor será el alcance orgánico de tus publicaciones.</span></p>
+<br />
+<h2><strong>Conclusión</strong></h2>
+<br />
+<img src="https://static.wixstatic.com/media/0126c4_f83b5d9708fc46fdb2a96c5ec2980839~mv2.jpg" alt="Carnaval de Barranquilla marketing digital" style="max-width: 100%; height: auto;" />
+<br />
+<p><span style="font-weight: 400;">El Carnaval de Barranquilla no es solo una fiesta: es una oportunidad estratégica para hacer marketing con intención, conectar con tu audiencia y aumentar la visibilidad de tu marca en el momento en que más personas están buscando información, planes y productos relacionados con la temporada. Con planificación, contenido relevante, SEO local y buenas promociones, estas fechas pueden convertirse en un verdadero impulso para tu negocio.</span></p>
+<br />
+<p><span style="font-weight: 400;">Si quieres que te ayude a </span><strong>planear y ejecutar tu estrategia digital en estas fechas</strong><span style="font-weight: 400;">, desde la creación de contenido hasta la gestión de tus redes y campañas, ofrezco mi servicio como </span><strong>community manager</strong><span style="font-weight: 400;"> y estaré encantada de acompañarte en este proceso. </span><a href="https://api.whatsapp.com/send?phone=573138283662&text=%C2%A1Hola!%20Me%20interesa%20conocer%20m%C3%A1s%20sobre%20tus%20servicios%20de%20marketing%20digital." target="_blank" rel="noopener noreferrer" style="color: #0066cc; text-decoration: underline;"><strong>Escríbeme</strong></a><span style="font-weight: 400;"> y armamos juntos una estrategia que aproveche todo el potencial del carnaval para tu marca.</span></p>
+</div>`,
+    image:
+      "https://static.wixstatic.com/media/0126c4_ceab547983414cef81ac37746a751c1e~mv2.jpg",
+    author: "Angie Galván R",
+    publishDate: "13-02-2026",
+    readTime: "3 min",
+    tags: ["Redes sociales"],
   }
 ];
 
