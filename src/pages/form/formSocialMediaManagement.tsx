@@ -11,7 +11,7 @@ const EMAIL_JS_SERVICE_ID = emailJsConfig.serviceId as string | undefined;
 const EMAIL_JS_TEMPLATE_ID = emailJsConfig.templateId as string | undefined;
 const EMAIL_JS_PUBLIC_KEY = emailJsConfig.publicKey as string | undefined;
 const EBOOK_URL =
-  "https://0126c410-ed7b-48f8-ae28-51297d1446ea.usrfiles.com/ugd/0126c4_94329ec28b1f4b0b9cb3cfd34743f5fd.pdf";
+  "https://0126c410-ed7b-48f8-ae28-51297d1446ea.usrfiles.com/ugd/0126c4_d751a60017e54baeb9fc54a00f6759ff.pdf";
 
 const validationSchema = Yup.object({
   name: Yup.string()

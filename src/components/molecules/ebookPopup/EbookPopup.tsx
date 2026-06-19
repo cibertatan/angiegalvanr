@@ -76,7 +76,7 @@ export const EbookPopup = ({ isOpen, onClose }: EbookPopupProps) => {
 
               {/* Mobile */}
               <div className="w-[60vw] cursor-pointer hidden lg:block" onClick={handleDownload}>
-               <img src={'/assets/img/promo-ebook.jpg'} alt="Ebook" className="w-full h-full object-cover" />
+               <img src={'/assets/img/promo-ebook-desktop.jpg'} alt="Ebook" className="w-full h-full object-cover" />
                 </div>
                 {/* Desktop */}
                 <div className="w-[90vw] cursor-pointer block lg:hidden" onClick={handleDownload}>
