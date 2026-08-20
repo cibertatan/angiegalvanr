@@ -1059,7 +1059,7 @@ export const BlogsSection: BlogPost[] = [
     image:
       "https://static.wixstatic.com/media/0126c4_b21bc21ef4e146a2b7e4debdb21a1b71~mv2.png",
     author: "Angie Galván R",
-    publishDate: "19-08-2026",
+    publishDate: "20-08-2026",
     readTime: "4 min",
     tags: ["Inteligencia Artificial", "Marketing Digital", "Contenido"],
   }

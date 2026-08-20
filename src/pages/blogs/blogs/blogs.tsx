@@ -21,14 +21,20 @@ export const Blogs = () => {
     return Array.from(tags);
   }, []);
 
-  // Filter blogs based on search term and selected tag
+  // Parse a "DD-MM-YYYY" date string into a timestamp for sorting
+  const parseDate = (dateString: string) => {
+    const [day, month, year] = dateString.split("-").map(Number);
+    return new Date(year, month - 1, day).getTime();
+  };
+
+  // Filter blogs based on search term and selected tag, most recent first
   const filteredBlogs = useMemo(() => {
     return BlogsSection.filter(blog => {
       const matchesSearch = blog.title.toLowerCase().includes(searchTerm.toLowerCase()) ||
                            blog.description.toLowerCase().includes(searchTerm.toLowerCase());
       const matchesTag = !selectedTag || blog.tags.includes(selectedTag);
       return matchesSearch && matchesTag;
-    });
+    }).sort((a, b) => parseDate(b.publishDate) - parseDate(a.publishDate));
   }, [searchTerm, selectedTag]);
 
   const handleBlogClick = (slug: string) => {
