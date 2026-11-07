@@ -1,5 +1,4 @@
 import { useEffect } from "react";
-import { SocialIcons } from "@components/molecules";
 import { PHONE_NUMBER } from "@/constants";
 
 const WHATSAPP_URL = `https://api.whatsapp.com/send?phone=57${PHONE_NUMBER}&text=${encodeURIComponent(
@@ -53,7 +52,7 @@ export const Maintenance = () => {
             style={{ marginBottom: "32px", maxWidth: "520px" }}
           >
             Estoy haciendo algunas mejoras para ofrecerte una mejor experiencia.
-            Mientras tanto, puedes escribirme por WhatsApp o seguirme en mis redes sociales.
+            Mientras tanto, puedes escribirme por WhatsApp.
           </p>
 
           <a
@@ -61,12 +60,10 @@ export const Maintenance = () => {
             target="_blank"
             rel="noopener noreferrer"
             className="inline-block bg-(--texto-hero) text-(--color-blanco) rounded-xl shadow-lg font-bold uppercase tracking-wide transition-all duration-200 hover:-translate-y-1 hover:shadow-2xl"
-            style={{ padding: "14px 28px", marginBottom: "32px" }}
+            style={{ padding: "14px 28px" }}
           >
             Escríbeme por WhatsApp
           </a>
-
-          <SocialIcons />
         </section>
       </main>
 
