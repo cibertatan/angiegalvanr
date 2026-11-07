@@ -1,9 +1,4 @@
 import { useEffect } from "react";
-import { PHONE_NUMBER } from "@/constants";
-
-const WHATSAPP_URL = `https://api.whatsapp.com/send?phone=57${PHONE_NUMBER}&text=${encodeURIComponent(
-  "¡Hola! Vi que tu sitio está en mantenimiento y me interesa conocer más sobre tus servicios."
-)}`;
 
 export const Maintenance = () => {
   useEffect(() => {
@@ -37,7 +32,7 @@ export const Maintenance = () => {
             className="text-(--texto-hero) text-sm font-bold uppercase tracking-[0.2em]"
             style={{ marginBottom: "16px" }}
           >
-            Volvemos pronto
+            Vuelvo pronto
           </span>
 
           <h1
@@ -49,21 +44,10 @@ export const Maintenance = () => {
 
           <p
             className="text-(--color-texto) text-lg lg:text-xl"
-            style={{ marginBottom: "32px", maxWidth: "520px" }}
+            style={{ maxWidth: "520px" }}
           >
             Estoy haciendo algunas mejoras para ofrecerte una mejor experiencia.
-            Mientras tanto, puedes escribirme por WhatsApp.
           </p>
-
-          <a
-            href={WHATSAPP_URL}
-            target="_blank"
-            rel="noopener noreferrer"
-            className="inline-block bg-(--texto-hero) text-(--color-blanco) rounded-xl shadow-lg font-bold uppercase tracking-wide transition-all duration-200 hover:-translate-y-1 hover:shadow-2xl"
-            style={{ padding: "14px 28px" }}
-          >
-            Escríbeme por WhatsApp
-          </a>
         </section>
       </main>
 
